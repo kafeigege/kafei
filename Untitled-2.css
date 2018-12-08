@@ -1,0 +1,322 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		font-size: 12px;
+	text-decoration: none;
+	}
+/*顶部*/
+.top a{
+	
+}
+.toptop{
+	width: 100%;
+}
+	.top{
+		width: 1200px;
+		margin: 0px auto;
+		
+		height: 70px;
+		
+		display: flex;
+		align-items:center;
+		
+		
+		
+		
+		
+	}
+	.top button{
+		border: 0;
+		background: #a4cbff;
+		float: left;
+		height: 30px;
+		width: 44px;
+		border-radius: 0px 5px 5px 0px;
+		cursor: pointer;
+		color: aliceblue;
+	}
+	.top button:hover{
+	background: #0C67C7;
+	}
+	.top input{
+		border: 0;
+		float: left;
+		height: 30px;	
+		width: 320px;
+		padding-left: 10px;
+		border-radius: 5px;
+		
+	}
+	.top .ss{
+		border: 1px solid #018CFF;
+		float: left;
+		
+		border-radius: 5px;
+		height: 30px;
+		margin-right: 50px;
+	}
+	.top ul{
+		margin-left: 200px;
+	
+	}
+	.top li{
+		float: left;
+		margin: 0px 5px;
+	}
+
+/*导航栏*/
+
+.tt{
+	      
+	         min-width: 1200px;
+			width: 100%;
+		margin: 0px auto;
+		background: #029BF0;
+	height: 41px;
+
+	
+	
+	
+		
+	}
+	.tt ul{
+		width: 1200px;
+		
+		margin: 0px auto;
+		
+		position: relative;
+	
+	
+		
+		
+	}
+.tt li:nth-child(2n){
+	width: 1px;
+	height: 14px;
+	background:#0041F3;
+margin-top: 12px;
+	
+	
+	 
+   
+   
+	
+}
+.tt li:nth-child(2n-1){
+	padding: 0px 10px;
+	line-height: 40px;
+}
+	.tt li:hover{
+		background: #0a56bb;
+		
+	}
+	.tt li{
+		float: left;
+		
+		
+		
+		
+		
+		
+		
+	}
+.tt ul li a{
+	font-size: 15px;
+	color: aliceblue;
+	font-weight: bold;
+}
+.tt ul li:last-child a{
+	font-size: 14px;
+}
+	.tt ul li:last-child{
+		background: #FFAE00;
+		width: 150px;
+		height: 41px;
+		line-height: 16px;
+		font-size: 16px;
+		margin-top: 0px;
+	    background: #ff9913 url(image/雪碧.png) no-repeat -59px -179px;
+		padding: 0 5px 0 0px;
+		box-sizing: border-box;
+		color:aliceblue;
+		position: absolute;
+		right: 0px;
+		
+		
+	}
+.tt .dl em{
+	 
+	    display: inline-block;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    font-size: 0;
+    margin-left: 2px;
+	margin-top: -5px;
+    vertical-align: middle;
+    border-top: 5px solid #fff;
+    border-bottom: 0 none;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+	transition: all  0.2s linear;
+	position: absolute;
+	bottom: 5px;
+	
+}
+.tt .dl:hover em{
+	transform: rotate(540deg);
+}
+.tt ul i{
+	    
+	    display: inline-block;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+	
+   
+    font-size: 0;
+    margin-left: 2px;
+	margin-top: -5px;
+    vertical-align: middle;
+    border-top: 3px solid #fff;
+    border-bottom: 0 none;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+	transition: all  0.2s linear;
+}
+.tt .dong:hover i{
+
+	transform: rotate(540deg);
+	
+	
+}
+.tt .dong:hover span{
+	display: block
+		;
+	
+}
+.tt .dong span{
+	display: inline-block;
+	width: 0px;
+	height: 0px;
+	  border-bottom: 7px solid #fff;
+    border-top: 0 none;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	display: none;
+	
+	
+	
+	   
+  
+    
+	
+   
+    
+    
+	
+}
+.tt .dong{
+	position: relative;
+}
+
+.wifi,.qianz,.baoxian{
+	width: 384px;
+	overflow: hidden;
+	border: 1px solid  #BBBBBB ;
+	
+
+	
+}
+.wifi-tp-wf{
+	width: 80px;
+	height: 80px;
+	background: #55ADED;
+	position: relative;
+	border-radius: 50%;
+	float: left;
+	margin-left: 40px;
+	
+}
+.wifi-tp i{
+
+	width: 50px;
+	height: 45px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   
+    display: inline-block;
+	transform: translate(-50%,-50%);
+ 
+	background: url(image/雪碧。.png) 0 0 no-repeat;
+	
+}
+.wifi-tp-wz{
+	float: left;
+	padding-left: 20px;
+	
+	
+}
+.wifi-tp-wz p:nth-child(1){
+
+	line-height: 16px;
+	margin-top: 5px;
+	margin-bottom:10px;
+	font-size: 16px;
+	font-weight: bold;
+	color: black;
+}
+.wifi-tp-wz p{
+line-height: 20px;
+	color: #9B9B9B;
+	
+	
+}
+
+.wifi-tp{
+	padding-top: 20px;
+	overflow: hidden;
+}
+.wifi-di{
+	margin-top: 15px;
+	border-top: 1px solid #B4B4B4;
+	box-sizing: border-box;
+	padding: 8px 0;
+}
+.wifi-di i{
+	vertical-align:-5px;
+}
+.wifi-di a:last-child{
+	border: 0;
+}
+.wifi-di a{
+	width: 24%;
+	display: inline-block;
+	border-right: 1px dashed #9C9C9C;
+	color: #787878;
+	padding-left:16px;
+	padding-right: 2px;
+	box-sizing: border-box;
+ 
+	
+	
+}
+.lvxing-san{
+	margin-top: 15px;
+	display: flex;
+	justify-content:space-between;
+	
+}
+#qzz{}
+#bxx{
+	background: url(image/雪碧。.png) 20 20
+		no-repeat;
+}

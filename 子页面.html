@@ -1,0 +1,378 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style type="text/css">
+	a{
+		text-decoration: none;
+		color: #6E6E6E;
+		font-size: 12px;
+	}
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	.top{
+		width: 100%;
+	}
+	.top-nei{
+		width: 1000px;
+		margin: 15px auto;
+	}
+	.ppp{
+		text-align: center;
+		font-size: 12px;
+		width: 100%;
+		height: 30px;
+		background:#FFFCD8;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	
+	}
+	.ppp a{
+		color:black;
+		text-decoration: none;
+	}
+	.ppp i{
+		font-style: normal;
+		display: inline-block;
+		background:#FFA12A;
+		color: aliceblue;
+		width: 15px;
+		height: 15px;
+		border-radius: 50%;
+		padding-left: 1px;
+		margin-right: 10px;
+		box-sizing: border-box;
+		
+	}
+	.zj{
+		width: 100%;
+	overflow: hidden;
+		height: 500px;
+		background:url(image/子1.jpg) no-repeat;
+		background-size: cover;
+		background-position: -200px 0;
+	}
+	.zjy{
+		width: 900px;
+		
+		margin: 0 auto;
+	}
+	.zjyn{
+		float: right;
+		position: relative;
+	
+		
+	}
+	.yyy{
+		display: block;
+	  border-radius: 3px;
+		border: 1px solid #C3C3C3;
+		margin-top: 50px;
+		background: #FFFFFF;
+		padding-top: 30px;
+		padding-left: 20px;
+		padding-right: 30px;
+	}
+	.sjsj{
+		width: 100%;
+		line-height: 40px;
+		box-sizing: border-box;
+			display: block;
+		margin-bottom: 15px;
+		padding-left: 10px;
+		
+	}
+	
+	.dl{
+	   width: 100%;
+		background: #FFFFFF;
+		border: 1px solid #989898;
+		height: 40px;
+		overflow: hidden;
+		display: flex;
+		
+		justify-content: space-between;
+	align-items: center;
+		box-sizing: border-box;
+		
+	}
+	.dl input{
+			display: block;
+		margin-bottom: 15px;
+		padding-left: 10px;
+		height: 100%;
+	
+	}
+	.aabb i{
+		font-style: normal;
+		display: inline-block;
+		width: 12px;
+		height: 12px;
+		border-radius: 50%;
+		background: #BBBBBB;
+		color: #FFFFFF;
+		text-align: center;
+		line-height: 12px;
+	}
+	.lab{
+		margin-top: 15px;
+		margin-bottom: 15px;
+		display: inline-block;
+	}
+	.aabb{
+		display: inline-block;
+		margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	button:hover{
+		background: #78561D;
+	}
+	button{
+		display: block;
+		width: 100%;
+		line-height: 40px;
+		margin-bottom: 10px;
+		color: #FFFFFF;
+		background: #FF9A14;
+		cursor: pointer;
+		font-size: 16px;
+		font-weight: bold;
+		border: 0;
+		border-radius: 4px;
+		height: 40px;
+		
+	}
+	.laop{
+		font-size: 12px;
+		text-align: center;
+		color:#AFAFAF;
+		margin-bottom: 40px;
+		
+	}
+	ul{
+		overflow: hidden;
+	}
+	ul li{
+		float: left;
+		font-size: 12px;
+		list-style: none;
+		color: #575757;
+		padding: 0 5px;
+	
+	}
+	ul li:nth-child(2n){
+		color: #7C7C7C;
+	}
+	ul a{
+		float: right;
+		color: #0053FB;
+		
+	}
+	.hou{
+		padding:20px 0;
+	}
+	.hou a{
+		display: inline-block;
+		margin-right: 18px;
+		width: 30px;
+		height: 0;
+		padding-top: 30px;
+		overflow: hidden;
+		vertical-align: middle;
+		background:url(image/子2.png) no-repeat;
+	}
+	.hou a:nth-child(2){
+		background-position:-35px 0;;
+		
+	}
+	.hou a:nth-child(3){
+		    background-position: -70px 0;
+	}
+	.hou a:nth-child(4){
+		    background-position: -105px 0;
+	}
+	.hou a:nth-child(5){
+		    background-position: -140px 0;
+	}
+	span{
+		display: inline-block;
+		background: #0B7AFF;
+		color: aliceblue;
+		padding: 8px 5px;
+		cursor: pointer;
+		position: absolute;
+		top: 60px;
+		right: -24px;
+		font-size: 14px;
+		
+	}
+	.eee{
+		padding: 20px;
+		border: 1px solid #7E7E7E;
+		border-radius: 3px;
+		background: #FFFFFF;
+		margin-top: 50px;
+		display: none;
+		
+		
+	}
+	.eee-h{
+	   width: 300px;
+		display: flex;
+		justify-content: center;
+		align-items:flex-end;
+		margin-top: 70px;
+		cursor: pointer;
+		margin-bottom: 40px;
+		
+		height: 180px;
+	}
+	#ig{
+		display: none;
+		transition: all 0.2s;
+	}
+	.eee-h:hover #ig{
+		display: block;
+		
+	}
+	.zuidi{
+		width: 100%;
+	}
+	.zuidi-d{
+		width: 900px;
+		border-top: 1px dashed #0093FF;
+		margin: 0 auto;
+		margin-top: 50px;
+	}
+	.llp a:hover  {
+		text-decoration: underline;
+	}
+	</style>
+</head>
+
+<body>
+<div class="top">
+<div class="top-nei">
+	<img src="image/c_logo2013.png"/>
+	
+	
+	
+</div>
+<p class="ppp"><a href="#"><i>!</i>依据《网络安全法》，为保障您相关功能的正常使用，请尽快完成手机验证。 新版《隐私政策》已上线，感谢您的支持。</a></p>
+	
+	
+</div>
+<div class="zj">
+<div class="zjy">
+	<div class="zjyn">
+	<div id="yyy" class="yyy">
+		<p style="margin-bottom: 20px;">携程账号登录<a style="float: right;" href="#">手机号查单></a></p>
+		<input class="sjsj" type="text" placeholder="国内手机号/用户名/邮箱/卡号"/>
+		<p class="dl">
+		
+		<input style="border: 0;padding-top: 20px;" type="text" placeholder="登陆密码"/>
+		
+		<a style="margin-right: 20px;"  href="#">忘记密码</a>
+		
+		</p>
+		<label class="lab"><input type="checkbox" checked/>
+		30天自动登录
+		</label>
+		<a class="aabb" style="float: right;" href="#">手机动态密码登录<i>></i></a>
+		<button>登&nbsp;&nbsp;录</button>
+		<p class="laop">登录即代表您同意我们的服务协议和隐私政策</p>
+		<ul>
+			<li>境外手机</li>
+			<li>|</li>
+			<li>公司客户</li>
+			<li>|</li>
+			<li>合作卡</li>
+			<li>|</li>
+			<li>携程通</li>
+			<a href="#">免费注册</a>
+		</ul>
+		<div class="hou">
+			<a href="#"></a>
+			<a href="#"></a>
+			<a href="#"></a>
+			<a href="#"></a>
+			<a href="#"></a>
+			
+			
+		</div>
+		
+	
+		
+	</div>
+	
+	
+	
+	
+	
+	
+		<div id="eee" class="eee">
+			<p style="font-size: 16px;">扫码登录</p>
+			<div class="eee-h">
+				<img style="width: 160px;height: 160px;" src="image/pc_activity_2_qcode.png"/>
+				<img id="ig" src="image/子3.png"/>
+			</div>
+			<p style="text-align: center;margin-bottom: 50px;">打开<a style="font-size: 14px;color: #002CFF;" href="#">携程APP</a>扫描二维码登录</p>
+			
+			
+		</div>
+		
+		<span id="sp">
+		扫<br/>码<br/>登<br/>录
+			
+		</span>	
+	</div>
+	
+	
+	
+</div>
+	
+	
+	
+</div>
+<div class="zuidi">
+<div class="zuidi-d">
+<p class="llp" style="font-size: 12px;text-align: center;margin-top: 20px;color: #777777;"><a href="#">网站导航</a> | <a href="#">宾馆索引</a> | <a href="#">用户协议</a> | <a href="#">关于携程</a> | <a href="#">企业公民</a> | <a href="#">诚聘英才</a> | <a href="#">分销联盟</a> | <a href="#">企业礼品卡采购</a> | <a href="#">代理合作</a> | <a href="#">广告业务</a> | <a href="#">联系我们</a> | <a href="#">返回旧版</a></p>
+<p style="font-size: 12px;text-align: center;margin-top: 1px;color: #777777;margin-bottom: 20px;">Copyright © 1999-2018, ctrip.com. All rights reserved.</p>
+	
+</div>
+	
+	
+	
+	
+</div>
+<script>
+	var spp=document.getElementById("sp");
+	var yy=document.getElementById("yyy");
+	var ee=document.getElementById("eee");
+	var i=1;
+	spp.onclick=function fu(){
+		
+		if(i==1){
+			yy.style.display="none";
+			ee.style.display="block";
+			spp.innerHTML="账"+"<br/>"+"号"+"<br/>"+"等"+"<br/>"+"录";
+			i++;
+		}else if(i==2){
+			yy.style.display="block";
+			ee.style.display="none";
+			spp.innerHTML="扫"+"<br/>"+"码"+"<br/>"+"登"+"<br/>"+"录";
+			i=1;
+			
+			
+		}
+		
+	}
+	
+	
+	</script>
+</body>
+</html>

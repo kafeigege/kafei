@@ -1,0 +1,4132 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>携程</title>
+<link href="Untitled-2.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="font_928215_pabi1qxzws/iconfont.css">
+<link rel="stylesheet" type="text/css" href="font_938952_svs19fytf8/iconfont.css">
+<link rel="stylesheet" type="text/css" href="font_940925_fw64nrgpzm7/iconfont.css">
+<link rel="stylesheet" type="text/css" href="font_940925_jojmwy5l16c/iconfont.css">
+<style type="text/css">
+
+	.waib{
+		width: 100%;
+	}
+	.dh{
+		width: 1200px;
+		
+	
+		overflow: hidden;
+		margin: 0 auto;
+		display: flex;
+		align-items: center;
+		height: 40px;
+	}	
+	.dh ul{
+		
+		
+	}
+	.dh ul li i{
+		padding-right: 4px;
+		color:#00ABFF;
+	}
+	.dh ul li{
+		float: left;
+		padding: 0px 8px;
+		color:#848484;
+		font-weight: bold;
+	}
+	.dh span{
+		float: left;
+    margin-right: 20px;
+    padding: 2px 5px;
+    background: #74a8ed;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 2px;
+		position: relative;
+
+	}
+	.dh span em{
+		display: inline-block;
+	position: absolute;
+		right: -7px;
+		border-left: 9px solid #74a8ed ;
+		border-top: 8px solid transparent;
+		border-bottom: 8px solid transparent;
+		height: 0px;
+		width: 0px;
+		
+		
+	}
+	.lunbo{
+		
+		width: 100%;
+		min-width: 1200px;
+		position: relative;
+		
+		
+	}
+	.lunbo img{
+		width: 100%;
+		height: 340px;
+		
+	
+	}
+	.lunbo #uu {
+		position: absolute;
+		bottom: 20px;
+		right: 280px;
+		z-index: 3;
+	}
+	.lunbo #uu  li{
+		float: left;
+		margin-right: 10px;
+		width: 9px;
+		height: 9px;
+		border-radius: 50%;
+		border: 2px solid #FFFFFF;
+		cursor: pointer;
+		transition: all 0.1s;
+		
+	}
+	.tab{
+		
+		margin: 0px auto;
+		width: 1200px;
+		height: 340px;
+		
+		position: absolute;
+		z-index: 2;
+		top: 0px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.ltab{
+		width:580px;
+		height: 300px;
+		box-shadow: 0px 0px 3px #888888;;
+		margin-top: 20px;
+		position: relative;
+		float: left;
+		
+	}
+	.abba{
+		width: 610px;
+		height: 300px;
+		
+		float: right;
+	}
+	.tab .ltab ul{
+		height: 300px;
+		background: #2E80FF;
+	}
+	.tab .ltab li{
+		
+		padding-left: 20px;
+		color: aliceblue;
+		cursor: pointer;
+	
+		height: 42px;
+		width:100px;
+	    background: #2E80FF;
+		
+		
+	}
+	.tab .ltab li b{
+	
+		margin-bottom: -2px;
+		margin-top: 2px;
+		border-bottom: 1px dashed #FFFFFF;
+		display: inline-block;
+		width: 60px;
+		line-height: 42px;
+		font-size: 15px;
+		
+		
+	}
+	.tab .ltab li:last-child b{
+		border: 0;
+		
+	}
+	.tab li:hover{
+		border-left: 4px solid #FF4F00;
+		background: #FFFFFF;
+		color:#005CFF;
+		
+		
+	}
+	.tab .ltab .js{
+		border-left: 4px solid #FF4F00;
+		background: #FFFFFF;
+		color:#005CFF;
+		
+		
+		
+	}
+	
+	.tab .hezi{
+		width: 480px;
+		height: 300px;
+		background: white;
+		position: absolute;
+		top: 0px;
+		left: 100px;
+		display: none;
+		
+	}
+	.hezi .hezi-1{
+		border-bottom: 1px solid #666;
+		margin: 0 15px;
+	}
+	.hezi .hezi-1 a{
+		display: inline-block;
+		font-size: 14px;
+	  margin-right: 15px;
+		padding-bottom: 3px;
+		margin-top: 15px;
+		color:#666;
+		margin-bottom: -1px;
+		font-weight: bold;
+		
+	}
+	.hezi .hezi-1 a:hover{
+		color: #06c;
+	}
+	.hezi .hezi-1 .db{
+		border-bottom: 2px solid #06c;
+	}
+	.hezi-11{
+		box-sizing: border-box;
+		padding-right: 15px;
+		padding-top: 20px;
+		
+		
+	}
+	.hezi-11 p{
+		float: right;
+		margin-bottom: 12px;
+		font-size: 14px;
+		
+	}
+	
+	.hezi-11 p input,.hezi-11 p select{
+		    border-color: #bbb #ddd #ddd #bbb;
+    border-style: solid;
+    border-width: 1px;
+		height: 28px;
+		    box-shadow: 1px 1px 1px #ddd inset;
+		font-size: 14px;
+		width: 150px;
+		padding-left: 10px;
+		box-sizing: border-box;
+	}
+	
+	.hezi-11 p:first-child input{
+		width: 380px;
+		margin-bottom: 5px;
+	}
+	.hezi-11 button:hover{
+		background:#B77D00;
+	}
+	.hezi-11 button{
+	          	box-shadow: 0 1px 0 rgba(95, 50, 0, 0.7);
+                border-radius: 3px;
+                display: block;
+                text-shadow: 1px 1px 0 #cf7000;
+                background-color: #ffb000;
+                border: solid 1px #e77c00;width: 145px;
+                height: 33px;
+                color: #fff;
+                font-size: 16px;
+                transform: translateX(285px);
+                margin-top:15px;
+		        cursor: pointer;
+	}
+	#diyi .db  .dsplay{
+		display: block;
+	}
+	#diyi a i{
+		display:inline-block;
+		height: 0px;
+		width: 0px;
+		border-left: 5px solid transparent;
+		border-top: 5px solid #2E80FF;
+		border-right: 5px solid transparent;
+		border-bottom: none;
+		position: absolute;
+		bottom: -6px;
+		left: 50%;
+		transform: translateX(-50%);
+		display: none;
+		
+	}
+	#diyi a{
+		position: relative;
+	}
+	
+	
+	
+	
+	
+	
+	
+	/*中间部分*/
+	.zjwnei{
+		width: 100%;
+	}
+	.zjnei{
+		width: 1200px;
+		margin: 0 auto;
+		margin-top: 30px;
+		height: 500px;
+		
+		
+	}
+	
+	.zjnei-uu{
+		border-bottom: 2px solid #3983e5;
+		overflow: hidden;
+	 	width: 100%;
+	    height: 40px;	
+		
+	
+	}
+
+	.zjnei-uu li{
+		float: left;
+		
+    cursor: default;
+		height: 40px;
+    line-height: 46px;
+		display: inline-block;
+		margin-right: 30px;
+		font-size: 16px;
+		
+		
+	}
+	.zjnei-uu li{
+		position: relative;
+		cursor: pointer;
+	}
+	.zjnei-uu .kaiguan .kaisuo{
+		display: block;
+		 
+	}
+	.zjnei-uu .kaiguan{
+		color:  #3983e5;
+	}
+	.zjnei-uu li i{
+		display: inline-block;
+		border-left: 6px solid transparent;
+		border-top: none;
+		border-right: 6px solid transparent;
+		border-bottom: 6px solid  #3983e5;
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		display: none;
+	}
+	.zjnei-uu li em{
+		
+		position: absolute;
+		display: inline-block;
+		padding: 0px 4px;
+		background: #FF7701;
+		color: aliceblue;
+		line-height: 13px;
+		font-style: normal;
+		left: 21px;
+	}
+	.zjnei-uu li b{
+		    position: absolute;
+    
+    top: 14px;
+    right: -7px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #da620a transparent transparent #da620a;
+	}
+	.zjnei-uu span{
+		margin-top: 23px;
+		cursor: pointer;
+		
+	}
+	.zjnei-uu span i{
+		display: inline-block;
+		    border-top: 5px solid #3983e4;
+    border-bottom: 0 none;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+		vertical-align:middle;
+	}
+	
+	.zjnei-tp{
+		border: 1px solid #DCDCDC;
+		
+		box-sizing: border-box;
+		
+		
+	}
+	
+	.zjnei-img{
+		transition: all 0.2s;
+		width: 98%;
+		overflow: hidden;
+		display: flex;
+		justify-content: space-around;
+		margin: 0 auto;
+		margin-bottom: 15px;
+	}
+	.zjnei-tp .laop{
+		width: 96%;
+		overflow: hidden;
+		height: 45px;
+		display: flex;
+		align-items: center;
+		margin: 5px auto;
+	}
+	.zjnei-tp .laop-s{
+		color: aliceblue;
+	background: #3983e5;
+	}
+	
+		.zjnei-tp p span{
+			cursor: pointer;
+		    
+    color: #3983e5;
+    border-radius: 3px;
+		  
+    display: inline-block;
+    line-height: 20px;
+    margin-right: 15px;
+    padding: 0 8px;
+		
+}
+	.zjnei-wu{
+		position: relative;
+		cursor: pointer;
+		
+		}
+	.zjnei-yue{
+		position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,0.4);
+		 border-radius:  0px 0 10px  0px;
+   
+}
+	.zjnei-yue span:first-child{
+		    background: #FF6913;
+    border-radius: 0 0 10px 0;
+	}
+	.zjnei-yue span{
+		   
+    display: inline-block;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 11px 0 6px;
+    color: #fff;
+	}
+	.zjnei-lvyou{
+		   
+    
+	    position: absolute;
+   
+    top: 50%;
+    left: 50%;
+  margin-left: -55px;
+		margin-top: -45px;
+    padding: 20px 10px;
+    width: 90px;
+    height: 70px;
+    
+  border-radius: 50%;
+    background: rgba(0, 0, 0, 0.5);
+   text-align: center;
+    
+	
+	}
+	.zjnei-lvyou p:first-child{
+		color: aliceblue;
+		font-size: 18px;
+		font-weight: bold;
+		border-bottom: 1px solid #FFFFFF;
+		height: 35px;
+		
+		
+		
+}
+	.zjnei-lvyou p:last-child b{
+		color: #FF4F00;
+		font-weight: bold;
+		font-size: 18px;
+		
+	}
+	.zjnei-lvyou p:last-child{
+		font-size: 14px;
+	  height: 35px;
+		color: aliceblue;
+	}
+	.zjnei-wu:hover div{
+		display: none;
+		cursor: pointer;
+		
+	}
+	.zjnei-wu img{
+		height: 100%;
+	}
+	.zjnei-wu:hover img{
+		filter: blur(10px);
+		
+	}
+	.zjnei-wu:hover .sanya{
+		display:inline-block;
+	}
+	.zjnei-wu .sanya{
+		display: inline-block;
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		display: none;
+		width: 100%;
+		height: 100%;
+		background: rgba(0,0,0,0.3);
+		color: aliceblue;
+		font-size: 40px;
+		font-weight: bold;
+		text-align: center;
+		line-height: 100px;
+		z-index: 3;
+		
+	}
+	.none{
+		display: none;
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	/*第三块*/
+	.sankuai{
+		width: 100%;
+	
+	}
+	.sknei{
+			width: 1200px;
+		margin: 0 auto;
+		margin-top: 30px;
+		
+		
+		
+	}
+	.sknei .kauguan{
+		
+	}
+	
+	.dskw .xiezi{
+		width: 220px;
+		border-right: 1px dotted #979797;
+		border-left: 1px dotted#979797;
+		border-bottom: 1px dotted#979797;
+		padding-bottom: 1px;
+	}
+	.dskw .xiezi span a{
+		color:#585858
+	}
+	.dskw .xiezi span{
+	display: block;
+		margin-left: 20px;
+		line-height: 35px;
+	
+	}
+	.dskw{
+		overflow: hidden;
+	}
+	
+	.dskw .rmcs{
+		box-sizing: border-box;
+		width: 978px;
+		
+		margin-top: 5px;
+		padding-left: 20px;
+	}
+	.dskw .rmcs span{
+		display: block;
+		box-sizing: border-box;
+		
+	}
+	.dskw .rmcs span a{
+		float: right;
+		 color: #3983e5;
+		
+		padding-left: 10px;
+		padding-right: 10px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+	line-height: 20px;
+		border: 1px solid transparent;
+	
+	}
+	.dskw .rmcs span a:hover{
+		border: 1px solid #3983e5;
+		border-radius: 5px;
+	
+		
+	}
+	.dskw .rmcs li{
+		float: left;
+			cursor: pointer;
+		    
+    color: #3983e5;
+    border-radius: 3px;
+		  
+    display: inline-block;
+    line-height: 20px;
+    margin-right: 15px;
+    padding: 0 8px;
+	margin-top: 6px;
+		
+	}
+	
+	
+	#fyyrrmtp .laopao-s{
+		color: aliceblue;
+	background: #3983e5;
+	}
+	#yyrrmtp .laopao-s{
+		color: aliceblue;
+	background: #3983e5;
+	}
+	#rrmtp .laopao-s{
+		color: aliceblue;
+	background: #3983e5;
+	}
+	.rmcs-tp{
+	margin-top: 10px;
+		float: left;
+		width: 100%;
+	 overflow: hidden;
+		padding-right: 20px;
+		box-sizing: border-box;
+	}
+	.rmcs{
+		border-bottom: 1px dotted #979797;
+		border-right: 1px dotted #979797;
+	}
+	
+	.xiezi span a:hover{
+		color: #3983e5;
+	}
+	
+	
+	
+	.rmcs-tp-hz{
+	     margin-right: 15px;
+		margin-bottom: 30px;
+		float: left;
+		width: 220px;
+		height: 150px;
+		overflow: hidden;
+		cursor: pointer;
+		position: relative;
+		
+		
+	}
+	.rmcs-tp-hz-tp img{
+		  width:220px;
+		height: 150px;
+		transition: all 0.3s;
+		
+	}
+	.rmcs-tp-hz-tp:hover img{
+		   transform: scale(1.1,1.1);
+		
+	}
+	.rmcs-tp-hz-tp:hover .rmcs-tp-hz-tp-wz{
+		background: rgba(0,0,0,0.8);
+		transition: all 0.3s;
+	} 
+	.rmcs-tp-hz-tp-wz{
+		position: absolute;
+		width:100px;
+		height: 100px;
+		background: rgba(0,0,0,0.4);
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		border-radius: 50%;
+		padding: 0px 10px;
+		box-sizing: border-box;
+	
+	}
+	.rmcs-tp-hz-tp-wz p{
+		text-align: center;
+		height: 50px;	
+	}
+	.rmcs-tp-hz-tp-wz p:first-child{
+		display: flex;
+		align-items:flex-end;
+		justify-content: center;
+		border-bottom: 2px solid #FFFFFF;
+		font-size: 16px;
+		color: aliceblue;
+		font-weight: bold;
+		padding-bottom: 6px;
+		box-sizing: border-box;
+		
+		
+		
+	}
+	.rmcs-tp-hz-tp-wz p:last-child{
+		color: aliceblue;
+	}
+	.chepiao{
+		
+		width: 950px;
+		float: left;
+		padding-left: 20px;
+		box-sizing: border-box;
+	}
+	
+	.chepiao-dd:hover{
+		box-shadow: 2px 2px 5px #bcbcbc ;
+		
+	}
+	.chepiao-dd{
+		transition: all 0.2s;
+		width: 210px;
+		height: 105px;
+	float: left;
+		box-sizing: border-box;
+		padding: 0 12px;
+		background: #f8f8f8;
+    border: 1px solid #f8f8f8;
+    cursor: pointer;
+		margin: 0 20px 10px 0;
+	}
+	.chepiao-dd p{
+		position: relative;
+    height: 20px;
+    line-height: 20px;
+   margin: 5px 0;
+    padding: 0 5px;
+	}
+	.chepiao-dd p button:hover{
+		background:#B47B00;
+		cursor: pointer;
+	}
+	.chepiao-dd p:last-child{
+		
+		width: 180px;
+	}
+	.chepiao-dd p button{
+		display: inline-block;
+		padding: 0 15px;
+		border-radius: 5px;
+		background: #FFA82C;
+	line-height: 30px;
+		height: 30px;
+		box-sizing: border-box;
+		border: 0;
+		color: aliceblue;
+		font-size: 14px;
+		float: right;
+	
+		
+		
+		
+	}
+	.chepiao-dd p:nth-child(2){
+	color: #949494;	
+	}
+	
+	.lssji a:nth-child(3n){
+		border: 0;
+	}
+	
+	.lssjif a{
+		
+		color: black;
+		position: relative;
+		display: inline-block;
+		padding: 0 10px;
+		border-right: 1px solid #BBBBBB;
+		float: left;
+		margin: 11px 0;		
+	}
+	.lssjif a:nth-child(4n){
+		border: 0;
+	}
+	.lssjif a:hover{
+		color:#3983e5;
+	}
+	.lssji a{
+		
+		color: black;
+		position: relative;
+		display: inline-block;
+		padding: 0 10px;
+		border-right: 1px solid #BBBBBB;
+		float: left;
+		margin: 11px 0;		
+	}
+	.lssji a i{
+		position: absolute;
+		display: block;
+		background:#FF7E00;
+		width: 12px;
+		height: 12px;
+		text-align: center;
+		line-height: 12px;
+		color: aliceblue;
+		font-style: normal;
+		border-radius: 50%;
+		right: 0;
+		top: -10px;
+		
+	}
+	.lssjif a i{
+		position: absolute;
+		display: block;
+		background:#FF7E00;
+		width: 12px;
+		height: 12px;
+		text-align: center;
+		line-height: 12px;
+		color: aliceblue;
+		font-style: normal;
+		border-radius: 50%;
+		right: 0;
+		top: -10px;
+		
+	}
+	.lssjif a:hover{
+		color:#3983e5; 
+	}
+	.lssji a:hover{
+		color:#3983e5; 
+	}
+	.cheche-cheche{
+		transition:all  0.3s;
+		width: 220px;
+		height: 200px;
+		cursor: pointer;
+		padding-bottom: 10px;
+		float: left;
+		margin-right: 15px;
+		overflow: hidden;
+	
+	}
+	.cheche-cheche img{
+		width: 100%;
+		
+		
+	}
+	.cheche-cheche p:last-child{
+		color: #B7B7B7;
+	}
+	.cheche-cheche p{
+		margin-left: 20px;
+		margin-bottom: 10px;
+	}
+	.cheche-cheche em{
+		font-style: normal;
+		
+	}
+	dfn{
+		color: #FF6700;
+		font-size: 26px;
+		font-style: normal;
+		font-weight: bold;
+	}
+	.cheche-cheche:hover{
+	box-shadow: 2px 2px 5px #bcbcbc ;
+	}
+	.cheche-cheche:hover img{
+		transform: scale(1.1);
+		transition: all 0.3s;
+		
+	}
+	#jkii{
+		
+	}
+	#jkii:hover{
+		box-shadow: 2px 2px 4px #b7b7b7;
+		
+		
+		
+	}
+	
+	#mddm {
+		position:relative;
+		overflow: hidden;
+	
+		box-sizing: border-box;
+		
+		
+		
+	}
+	#mddm:hover p{
+		
+		bottom: -30px;
+		
+		
+	}
+	
+	#mddm p{
+		position: absolute;
+		bottom: -70px;
+		left: 0px;
+		width: 220px;
+		transition: all 0.5s;
+		height: 90px;
+	}
+	#mddm img{
+		position: absolute;
+		top: 0px;
+		height:250px; 
+	}
+	#maddm:hover img{
+		bottom: -20px;
+		transform: scale(1.2);
+	}
+	.qiye-w{
+		width: 100%;
+		
+	}
+	.qiye-n{
+		width: 1200px;
+      margin-top:-300px;
+		height: 416px;
+		border: 1px solid #cfcfcf;
+	
+	}
+	.qiye-n-d{
+		overflow: hidden;
+		
+	}
+	.qiye-n-z{
+		float: left;
+		box-sizing: border-box;
+		border-right: 1px solid #CFCFCF;
+		border-bottom: 1px solid #cfcfcf;
+		padding-top: 10px;
+		padding-left: 20px;
+		width: 220px;
+		padding-bottom: 10px;
+		
+	}
+	.qiye-n-y{
+		float: left;
+	
+		border-bottom: 1px solid #cfcfcf;
+		
+	}.qiye-n-z p{
+		line-height: 25px;
+	}
+	.qiye-n-z p:first-child span {
+		font-size: 16px;
+		font-weight: bold;
+		margin-bottom: 10px;
+		
+		
+	}
+	.qiye-n-z p:first-child a{
+		float: right;
+		padding-right: 10px;
+		color: #cfcfcf;
+	}
+	
+	.qiye-n-y ul li{
+		float: left;
+		width: 162px;
+		height: 97px;
+		box-sizing: border-box;
+	}
+	.qiye-n-y ul li a{
+		display: inline-block;
+    width: 76px;
+    height: 0;
+    padding-top: 28px;
+    overflow: hidden;
+    background-image: url(image/雪碧3.png);
+    background-repeat: no-repeat;
+		border-right: 1px dashed #cfcfcf;
+		padding-right: 30px;
+		
+	
+	}
+	.qiye-n-y ul li{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	#bxxx{
+		background:#FFC2B7;
+	}
+	#bxxx #bxx{
+		background: url(image/雪碧。.png) 0 -39px no-repeat;
+		
+	}
+	#qzzz i{
+		background: url(image/雪碧。.png) 0 -89px no-repeat;
+	}
+	#qzzz{
+		background: #59E48F;
+	}
+	#wzzz i{
+		background: url(image/雪碧。.png) 0 -140px no-repeat;
+	}
+	#wzzz{
+		background: #FFC90E;
+	}
+	#ezzz i{
+		background: url(image/雪碧。.png) 0 -190px no-repeat;
+	}
+	#ezzz{
+		background:#0089FB;
+	}
+	#rzzz{
+		background: #C800FF;
+	}
+	#rzzz i{
+		background: url(image/雪碧。.png) 0 -232px no-repeat;
+	}
+	
+	.qiye-n-zi{
+		border: 1px solid #FF0004;
+	    padding: 10px 15px;
+    line-height: 2;
+		    background: #fff;
+    border: 1px solid #e0e0e0;
+    border-top: none;
+    overflow: hidden;
+		
+	}
+	.qiye-n-zi dl{
+		height: auto;
+		    margin-right: -5px;
+    padding-left: 80px;
+    display: block;
+    height: 24px;
+    overflow: hidden;
+		line-height: 20px;
+		
+	}.qiye-n-zi dd:hover{
+		color: #0056CB;
+	}
+	.qiye-n-zi dd{
+		    float: left;
+    width: 84px;
+    margin-right: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+		color:#ADADAD;
+		cursor: pointer;
+		
+	}
+	.qiye-n-zi dt{
+		    float: left;
+    display: inline;
+    width: 80px;
+    margin-left: -80px;
+		    font-size: 12px;
+    font-weight: bold;
+    color: #666;
+	}
+	.qiye-n-xian{
+		border-bottom: 1px dashed #cfcfcf;
+	margin-top: 15px;
+		margin-bottom: 15px;
+	}
+	.dibu-nei{
+		width: 1200px;
+		margin: 40px auto;
+		height: 200px;
+		
+		display: flex;
+		justify-content: space-between;
+	}
+	.dibu-yi,.dibu-er,.dibu-san,.dibu-si,.dibu-wu{
+		width: 24%;
+		padding-left: 10px;
+		padding-top: 20px;
+		
+	}
+	.dibu{
+		width: 100%;
+		
+	}
+	.dibu-yi{
+		position: relative;
+		padding-top: 10px;
+		border-right: 1px dashed #cfcfcf;
+		padding-right: 25px;
+		box-sizing: border-box;
+		
+	}
+	.dibu-yi i
+	{
+		background-image: url(image/雪碧3.png);
+		background-repeat: no-repeat;
+		display: inline-block;
+		width: 36px;
+		height: 36px;
+		background-position: -41px -250px;
+		position: absolute;
+		left: 0px;
+	}
+	#iii{
+		background-position: -41px -200px;
+	}
+	.dibu-yi span{
+		padding-left: 40px;
+	}
+	.dibu-yi-p{
+		font-size: 16px;
+		margin-bottom: 10px;
+		
+	}
+	.dibu-er{
+		border-right: 1px dashed #cfcfcf;
+		
+	}
+	.dibu-er p{
+		margin-bottom: 20px;
+		font-size: 16px;
+		text-align: center;
+	}
+	.dibu-er a{
+		display: block;
+		line-height: 24px;
+		text-align: center;
+		color: black;
+	}
+	.dibu-wu p{
+		text-align: center;
+		margin-bottom: 15px;
+		
+	}
+	.dibu-wu img{
+		margin-left: 55px;
+		border: 1px solid #BCBCBC;
+		padding: 5px;
+		background: #FFFFFF;
+		
+	}
+	.dididi p{
+		text-align: center;
+		line-height: 40px;
+		color: #A4A4A4;
+	}
+	.hmda {
+		margin-top: 15px;
+		display: flex;
+		justify-content: space-between;
+	}
+	.hmda a{
+	background-image: url(image/雪碧4.png);
+		background-repeat: no-repeat;
+		display: inline-block;
+		width: 88px;
+		height: 32px;
+		border: 1px solid #979797;
+		margin-right: 8px;
+		color: #3A3A3A;
+		
+	}
+	.hmda a:first-child{
+		background-position: -88px -50px;
+		text-align: center;
+		line-height: 32px;
+	display: flex;
+		padding-right: 5px;
+		justify-content: flex-end;
+		color: #8C8C8C;
+	}
+	.hmda a:nth-child(2){
+		background-position: -88px -85px;
+		display: flex;
+		justify-content: flex-end;
+		line-height: 32px;
+		padding-right: 5px;
+		color: #8C8C8C;
+	}
+	.hmda a:nth-child(3){
+		    background-position: 0 -50px;
+	}
+	.hmda a:nth-child(4){
+		
+		    background-position: 0 -387px;
+	}
+	
+	.hmda a:nth-child(5){
+		
+		    background-position: 0 -387px;
+	}
+	.hmda a:nth-child(6){
+		    background-position: 0 -118px;
+	}
+	.hmda a:nth-child(7){
+		    background-position: 0 -193px;
+	}
+	.hmda a:nth-child(8){
+		    background-position: 0 -350px;
+	}
+	.hmda a:nth-child(9){
+		
+		    background-position: 0 -429px;
+
+	}
+	.hmda a:nth-child(10){
+		    background-position: 0 -155px;
+	}
+	.hmda a:nth-child(11){
+		    background-position: 0 -480px;
+	}
+	#imga{
+		position: fixed;
+		bottom: 60px;
+		left: 0px;
+		cursor: pointer;
+		transition: all 0.4s;
+		z-index: 51;
+	}
+	
+	#imag{
+		position: fixed;
+		bottom: -30px;
+		left: -200%;
+		width: 100%;
+	background: rgba(0,0,0,0.7);
+		height: 200px;
+		z-index: 50;
+		transition: all 1.2s;
+		
+		cursor: pointer;
+	
+	}
+	#imag img{
+		
+	
+	}
+	#imagg{
+		position: fixed;
+		left:50%;
+		position:relative;
+		width: 1100px;
+		background: rgba(0,0,0,0.7);
+		transform: translate(-50%);
+		
+	
+	}
+	#imagg img{
+		position: absolute;
+		left: 10px;
+		top: -20px;
+	}
+	#imagg .imag-hz{
+		position: absolute;
+		right: 100px;
+	
+       width: 200px;
+		height: 200px;
+		background: rgba(255,255,255,0.2);
+		
+	}
+	#imagg .imag-hz p{
+	position: absolute;
+		left: 50px;
+		top: 10px;
+		color:aliceblue;
+		font-size: 16px;
+		font-weight: bold;
+		
+	}
+	#imagg .imag-hz img{
+		position: absolute;
+		left: 50px;
+		top: 40px;
+		
+	}
+	#chadiao{
+		position: absolute;
+		right: -35px;
+		display: block;
+		border: 0;
+		width: 35px;
+		height: 35px;
+		font-size: 45px;
+		cursor: pointer;
+		background: rgba(0,0,0,0);
+		color:#D7D7D7;
+		
+		    font-size: 38px;
+    line-height: 1.2;
+    font-family: Simsun;
+   
+    outline: 0 none;
+	}
+	
+	
+	
+	@media (max-width:900px){
+		#imga{
+			left: -80px;
+		}
+		
+	}
+	.dl:hover {
+overflow:inherit;
+		cursor: pointer;
+	}
+	.dl{
+		position: relative;
+		
+	}
+	.dl {
+	overflow: hidden;
+	}
+	.dl .dlzh{
+		
+		border: 1px solid #C1C1C1;
+		border-radius: 0px 0px 5px 5px;
+		position: absolute;
+		padding: 5px 0;
+		bottom: -200%;
+		left: 0px;
+		width: 100%;
+		background:#fff;
+		height: 200%;
+		z-index: 100;
+		display: flex;
+		justify-content:space-around;
+		flex-direction: column;
+		box-sizing: border-box;
+		
+	align-items: center;}
+	
+	.dl .dlzh button{
+		width: 100px;
+		display: block;
+		cursor: pointer;
+		border: 0;
+		font-size: 18px;
+		color: #FFFFFF;
+		background: #ffba14;
+	text-shadow:  1px 1px 0 #e57c00;
+	height: 30px;
+		border-radius: 5px;
+		    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+		font-weight: bold;
+	}
+	.dl .dlzh a{
+		color:#0015FF;
+	
+	}.dl .dlzh button:hover{
+		background: #A47F00;
+	}
+	.dl .dlzh a:hover{
+		text-decoration: underline;
+	}
+	
+	.qaz:hover{
+		text-decoration: underline;
+	}
+	.qaz{
+			
+		display: inline-block;
+		line-height: 30px;
+	width: 100px;
+		text-align: center;
+	}
+	.zjnei-wu{
+		overflow: hidden;
+	
+	}
+	.i-i{
+		display: none;
+		    position: absolute;
+    right: -40px;
+   z-index: 100;
+    top: 30px;
+    width: 156px;
+    height: 218px;
+   border: 1px solid #777777;
+box-shadow: 0px 0px 6px #cfcfcf;
+    text-align: center;
+		background: #FFFFFF;
+		
+		
+	}
+	.i-i b{
+		
+		display: block;
+		position: absolute;
+		top: -16px;
+		left: 60%;
+		border-left: 7px solid transparent;
+		border-right: 7px solid transparent;
+		border-top: 7px solid transparent;
+		border-bottom: 10px solid #D3D3D3;
+		z-index: 101;
+	}
+	.p-p:hover{
+		text-decoration: underline;
+	}
+	.wcjj{
+		cursor: pointer;
+	}
+	.wcjj:hover .i-i{
+		display: block;
+	}
+	
+</style>
+
+</head>
+
+<body>
+<div class="toptop">
+<div class="top">
+	<a style="margin-right: 50px;" href="#"><img src="image/c_logo2013.png"/></a>
+	<div class="ss">
+		<input type="text" placeholder="搜索旅行地/酒店/旅游/景点门票/交通" />
+		<button class="iconfont icon-sousuo"></button>
+		
+	</div>
+	<ul>
+	<li><i class="iconfont icon-diqiuquanqiu"></i></li>
+		<li>Language</li>
+		<li>|</li>
+		<li>客服中心</li>
+		<li>|</li>
+		<li>境内：<a href="#">400-830-6666</a></li>
+		
+		<li style="margin-top: -5px;margin-left: 30px;">
+			<i style="font-size: 20px;color: darkgrey;position: relative;margin-right: 10px;" class="iconfont icon-shouji wcjj">
+				<div class="i-i">
+					<b></b>
+					<p style="margin: 20px 0;color: #0047C4">手机扫码快速下载</p>
+					<p class="p-p" style="background:#D4D3D3;padding: 13px 0;color: black;">携程旅行手机版></p>
+				</div>
+			</i>
+			<i style="font-size: 20px;color: darkgrey" class="iconfont icon-changyonglogo28" ></i>
+		</li>
+		
+	</ul>
+</div>
+</div>
+<div  class="tt">
+<ul>
+	<li style="background: #0a56bb"><a href="#">首页</a></li>
+	<li></li>
+	<li class="dong"><a href="#">酒店</a>
+	<i></i>
+	<span></span>
+	
+	
+	
+	</li>
+	<li></li>
+	<li class="dong"><a href="#">旅游</a><i></i>
+	<span></span>
+	</li>
+	<li></li>
+	<li><a href="#">跟团游</a></li>
+	<li></li>
+	<li><a href="#">自由行</a></li>
+	<li></li>
+	<li class="dong"><a href="#">机票</a><i></i><span></span></li>
+	<li></li>
+	<li class="dong"><a href="#">火车</a><i></i><span></span></li>
+	<li></li>
+	<li class="dong"><a href="#">汽车票</a><i></i><span></span></li>
+	<li></li>
+	<li class="dong"><a href="#">用车</a><i></i><span></span></li>
+	<li></li>
+	<li class="dong"><a href="#">门票</a><i></i><span></span></li>
+	<li></li>
+	<li class="dong"><a href="#">攻略</a><i></i><span></span></li>
+	<li></li>
+	<li class="dong"><a href="#">全球购</a><i></i><span></span></li>
+	<li></li>
+	<li class="dong"><a href="#">礼品卡</a><i></i><span></span></li>
+	<li></li>
+	<li><a href="#">商旅</a></li>
+	<li></li>
+	<li><a href="#">邮轮</a></li>
+	<li></li>
+	<li><a href="#">目的地</a></li>
+	<li></li>
+	<li class="dong"><a href="#">更多</a><i></i><span></span></li>
+	
+	<li class="dl">
+	
+	<p style="margin-top: 5px;padding-left: 25px;">
+	<a href="子页面.html">登陆</a>&nbsp;|&nbsp;
+	<a href="#">注册</a>
+	</p>
+	<p class="nima" style="padding-left: 15px;font-weight: bold;position: relative;">
+	<a href="#">我的携程</a>
+	<em></em>
+	</p>
+	
+	
+	<div class="dlzh">
+		<button><a class="qaz" style="color: aliceblue;display:inline-block;width: 100%;height: 100%;" href="子页面.html">登录</a></button>
+		<a href="#">查看订单</a>
+		<a href="#">手机查订单</a>
+	</div>
+	</li>
+	
+	
+	
+</ul>
+
+	
+</div>
+<div class="waib">
+<div class="dh">
+<span>境外直通车<em></em></span>
+<ul>
+
+	<li><i class="iconfont icon-jiudian"></i>海外酒店</li>
+	<li><i class="iconfont icon-bianji"></i>国际•港澳台机票</li>
+	<li><i class="iconfont icon-changjingguanli"></i>境外租车</li>
+	<li><i class="iconfont icon-chuzuche"></i>国际•港台火车</li>
+	<li><i  class="iconfont icon-lvyou7"></i><i></i>出境游</li>
+	<li><i  class="iconfont icon-jiebantubiao-"></i>高端游</li>
+	<li><i  class="iconfont icon-icon--"></i>出境•港澳台</li>
+	<li><i  class="iconfont icon-hanguo"></i>门票</li>
+	<li><i  class="iconfont icon-fenxiangfangshi"></i>签证</li>
+	<li><i  class="iconfont icon-diqiu"></i>保险</li>
+	<li><i  class="iconfont icon-chujingyoutubiao"></i>wifi</li>
+	<li><i  class="iconfont icon-chuhang"></i>电话卡</li>
+	<li><i  class="iconfont icon-chujingyou"></i>境外接送</li>
+	
+	
+	
+</ul>
+	</div>
+</div>
+<div class="lunbo">
+	<div class="nei">
+	<img id="ig" onmo src="image/1.jpg"/>	
+	</div>
+	<ul id="uu">
+		<li onMouseOver="fu(1,this)" onMouseOut="ks()"></li>
+		<li onMouseOver="fu(2,this)" onMouseOut="ks()"></li>
+		<li onMouseOver="fu(3,this)" onMouseOut="ks()"></li>
+		<li onMouseOver="fu(4,this)" onMouseOut="ks()"></li>
+		<li onMouseOver="fu(5,this)" onMouseOut="ks()"></li>
+		<li onMouseOver="fu(6,this)" onMouseOut="ks()"></li>
+		<li onMouseOver="fu(7,this)" onMouseOut="ks()"></li>
+		<li onMouseOver="fu(8,this)" onMouseOut="ks()"></li>
+		<li onMouseOver="fu(9,this)" onMouseOut="ks()"></li>
+		
+	</ul>
+	<div class="tab">
+		<div id="lbb" class="ltab">
+			<ul  id="wwlb">
+				<li class="js"><b>酒店</b></li>
+				<li><b>机票</b></li>
+				<li><b>自由行</b></li>
+				<li><b>旅游</b></li>
+				<li><b>火车</b></li>
+				<li><b>用车</b></li>
+				<li><b>门票</b></li>
+			</ul>
+			<div class="hezi">
+			
+			<div id="diyi" class="hezi-1">
+				<a class="db" href="#">国内酒店<i class="dsplay"></i></a>
+				<a href="#">海外酒店<i class="dsplay"></i></a>
+				<a href="#">酒店团购<i class="dsplay"></i></a>
+				<a href="#">酒店+景点<i class="dsplay"></i></a>
+				<a href="#">会议•团房•长住<i class="dsplay"></i></a>
+			</div>
+			<div class="hezi-11">
+			<p>
+				目的地&nbsp;&nbsp;
+				<input type="text" placeholder="中文/拼音"/>
+			</p>
+			<p>
+			入住日期&nbsp;&nbsp;<input type="text" value="2018-11-28"/>
+			<span style="display: inline-block;font-size: 14px;width: 75px;height: 28px;text-align: center;">退房日期</span><input type="text" value="2018-11-29"/>
+			</p>
+			<p>
+				房间数&nbsp;&nbsp;<select>
+					<option>1间</option>
+					<option>2间</option>
+					<option>3间</option>
+					<option>4间</option>
+					<option>5间</option>
+					<option>6间</option>
+					<option>7间</option>
+					<option>8间</option>
+					<option>9间</option>
+					<option>10间</option>
+				</select>
+				<span style="display: inline-block;font-size: 14px;width: 71px;height: 28px;text-align: center;">住客数</span>
+				<input type="text" value="1成人"/>
+			</p>
+			<p>酒店级&nbsp;&nbsp;<select>
+			<option>不限</option>
+			<option>五星级/豪华</option>
+			<option>四星级/高档</option>
+			<option>三星级/舒适</option>
+			
+			</select><span style="display: inline-block;font-size: 14px;width: 79px;height: 28px;text-align: center;">别关键词</span><input style="font-size: 12px;" type="text" placeholder="(选填)酒店名/地标/商圈"</p>
+				<button>搜索</button>
+				
+			</div>
+			</div>
+			
+			<div class="hezi">
+				sdfsd2
+			</div>
+			
+			<div class="hezi">
+				sdfsd3
+			</div>
+			
+			<div class="hezi">
+				sdfsd
+			</div>
+			
+			<div class="hezi">
+				sdfsd
+			</div>
+			
+			<div class="hezi">
+				sdfsd
+			</div>
+			
+			<div class="hezi">
+				sdfsd
+			</div>
+			
+			
+		</div>
+		<div style="cursor: pointer" class="abba" onMouseOver="fuf()" onMouseOut="ks()">
+			
+		</div>
+	</div>
+</div>
+<div class="zjwai">
+<div class="zjnei">
+<div id="idkaiguan" class="zjnei-uu">
+
+	<li class="kaiguan">热门<i class="kaisuo"></i></li>
+	<li>特卖汇<i class="kaisuo"></i></li>
+	<li>出境游<i  class="kaisuo"></i></li>
+	<li>境内游<i  class="kaisuo"></i></li>
+	<li>周边游<i  class="kaisuo"></i></li>
+	<li>邮轮<i  class="kaisuo"></i></li>
+	<li>门票<i  class="kaisuo"></i></li>
+	<li>主体游<b></b><em>NEW</em><i  class="kaisuo"></i></li>
+	<li>高端游<i  class="kaisuo"></i></li>
+	<span style="float: right;font-size: 12px;color:#3983e5 ">上海出发<i></i></span>
+</div>
+	<div class="zjnei-tp">
+	<p id="rmtp" class="laop">
+		<b onClick="kele(0)"><span class="laop-s">境内</span></b>
+		<b onClick="kele(1)"><span >港澳台</span></b>
+		<b onClick="kele(2)"><span>日本</span></b>
+		<b onClick="kele(3)"><span>东南亚</span></b>
+		<b onClick="kele(4)"><span>欧洲</span></b>
+		<b onClick="kele(5)"><span>美洲</span></b>
+		<b onClick="kele(6)"><span>澳中东非</span></b>
+	</p>
+	<div class="none" id="xumixu0">
+	<div id="qw0"  class="zjnei-img">
+	
+	
+	
+	
+		<div class="zjnei-wu">
+		<div class="zjnei-yue">
+		<span>月销36700笔</span>
+		<span>共3000条产品</span>
+		</div>
+		<div class="zjnei-lvyou">
+			<p>三亚</p>
+			<p>￥<b>1386</b>/人起
+			</p>
+		</div>
+		<b class="sanya">
+		<p>旅游胜地</p>三亚
+		
+		
+		</b>
+		<img src="image/q.jpg"/>
+		
+		</div>
+		
+		
+		
+		
+		
+		<div class="zjnei-wu">
+		<div class="zjnei-yue">
+		<span>月销36700笔</span>
+		<span>共3000条产品</span>
+		</div>
+		<div class="zjnei-lvyou">
+			<p>厦门</p>
+			<p>￥<b>1486</b>/人起
+			</p>
+			
+		</div>
+		
+		<b class="sanya">
+		<p>旅游胜地</p>厦门
+		
+		
+		</b>
+		<img src="image/w.jpg"/>
+		</div>
+		
+		
+		
+		
+		
+		
+		<div class="zjnei-wu">
+		<div class="zjnei-yue">
+		<span>月销645200笔</span>
+		<span>共3500条产品</span>
+		</div>
+		<div class="zjnei-lvyou">
+			<p>北京</p>
+			<p>￥<b>8886</b>/人起
+			</p>
+		</div>
+		
+		<b class="sanya">
+		<p>旅游胜地</p>北京
+		
+		
+		</b>
+		<img src="image/r.jpg"/>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		<div class="zjnei-wu">
+		<div class="zjnei-yue">
+		<span>月销564700笔</span>
+		<span>共3540条产品</span>
+		</div>
+		<div class="zjnei-lvyou">
+			<p>桂林</p>
+			<p>￥<b>98788</b>/人起
+			</p>
+		</div>
+		<b class="sanya">
+		<p>旅游胜地</p>桂林
+		
+		
+		</b>
+		<img  src="image/e.jpg"/>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		<div class="zjnei-wu">
+		<div class="zjnei-yue">
+		<span>月销388700笔</span>
+		<span>共9000条产品</span>
+		</div>
+		<div class="zjnei-lvyou">
+			<p>青岛</p>
+			<p>￥<b>9878</b>/人起
+			</p>
+		</div>
+		<b class="sanya">
+		<p>旅游胜地</p>青岛
+		
+		
+		</b>
+		<img  src="image/t.jpg"/>
+		</div>
+		
+		
+		</div></div>
+    <div class="none" id="xumixu1"><div id="qw1"   class="zjnei-img">
+	
+	
+	
+	
+		<div class="zjnei-wu">
+		<div class="zjnei-yue">
+		<span>月销36700笔</span>
+		<span>共3000条产品</span>
+		</div>
+		<div class="zjnei-lvyou">
+			<p>香港</p>
+			<p>￥<b>1386</b>/人起
+			</p>
+		</div>
+		<b class="sanya">
+		<p>旅游胜地</p>香港
+		
+		
+		</b>
+		<img src="image/11.jpg"/>
+		
+		</div>
+		
+		
+		
+		
+		
+		<div class="zjnei-wu">
+		<div class="zjnei-yue">
+		<span>月销36700笔</span>
+		<span>共3000条产品</span>
+		</div>
+		<div class="zjnei-lvyou">
+			<p>台湾</p>
+			<p>￥<b>1486</b>/人起
+			</p>
+			
+		</div>
+		
+		<b class="sanya">
+		<p>旅游胜地</p>台湾
+		
+		
+		</b>
+		<img src="image/22.jpg"/>
+		</div>
+		
+		
+		
+		
+		
+		
+		<div class="zjnei-wu">
+		<div class="zjnei-yue">
+		<span>月销645200笔</span>
+		<span>共3500条产品</span>
+		</div>
+		<div class="zjnei-lvyou">
+			<p>澳门</p>
+			<p>￥<b>8886</b>/人起
+			</p>
+		</div>
+		
+		<b class="sanya">
+		<p>旅游胜地</p>澳门
+		
+		
+		</b>
+		<img src="image/12.jpg"/>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		<div class="zjnei-wu">
+		<div class="zjnei-yue">
+		<span>月销564700笔</span>
+		<span>共3540条产品</span>
+		</div>
+		<div class="zjnei-lvyou">
+			<p>台北</p>
+			<p>￥<b>98788</b>/人起
+			</p>
+		</div>
+		<b class="sanya">
+		<p>旅游胜地</p>台北
+		
+		
+		</b>
+		<img  src="image/13.jpg"/>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		<div class="zjnei-wu">
+		<div class="zjnei-yue">
+		<span>月销388700笔</span>
+		<span>共9000条产品</span>
+		</div>
+		<div class="zjnei-lvyou">
+			<p>尖沙咀</p>
+			<p>￥<b>9878</b>/人起
+			</p>
+		</div>
+		<b class="sanya">
+		<p>旅游胜地</p>尖沙咀
+		
+		
+		</b>
+		<img  src="image/14.jpg"/>
+		</div>
+		
+		
+	</div></div>
+	<div class="none" id="xumixu2"><div id="qw2"  class="zjnei-img">
+	
+	
+	
+	
+		<div class="zjnei-wu">
+		<div class="zjnei-yue">
+		<span>月销36700笔</span>
+		<span>共3000条产品</span>
+		</div>
+		<div class="zjnei-lvyou">
+			<p>大阪</p>
+			<p>￥<b>1386</b>/人起
+			</p>
+		</div>
+		<b class="sanya">
+		<p>旅游胜地</p>大阪
+		
+		
+		</b>
+		<img src="image/23.jpg"/>
+		
+		</div>
+		
+		
+		
+		
+		
+		<div class="zjnei-wu">
+		<div class="zjnei-yue">
+		<span>月销36700笔</span>
+		<span>共3000条产品</span>
+		</div>
+		<div class="zjnei-lvyou">
+			<p>东京</p>
+			<p>￥<b>1486</b>/人起
+			</p>
+			
+		</div>
+		
+		<b class="sanya">
+		<p>旅游胜地</p>东京
+		
+		
+		</b>
+		<img src="image/31.jpg"/>
+		</div>
+		
+		
+		
+		
+		
+		
+		<div class="zjnei-wu">
+		<div class="zjnei-yue">
+		<span>月销645200笔</span>
+		<span>共3500条产品</span>
+		</div>
+		<div class="zjnei-lvyou">
+			<p>名古屋</p>
+			<p>￥<b>8886</b>/人起
+			</p>
+		</div>
+		
+		<b class="sanya">
+		<p>旅游胜地</p>名古屋
+		
+		
+		</b>
+		<img src="image/32.jpg"/>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		<div class="zjnei-wu">
+		<div class="zjnei-yue">
+		<span>月销564700笔</span>
+		<span>共3540条产品</span>
+		</div>
+		<div class="zjnei-lvyou">
+			<p>富士山</p>
+			<p>￥<b>98788</b>/人起
+			</p>
+		</div>
+		<b class="sanya">
+		<p>旅游胜地</p>富士山
+		
+		
+		</b>
+		<img  src="image/33.jpg"/>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		<div class="zjnei-wu">
+		<div class="zjnei-yue">
+		<span>月销388700笔</span>
+		<span>共9000条产品</span>
+		</div>
+		<div class="zjnei-lvyou">
+			<p>京都</p>
+			<p>￥<b>9878</b>/人起
+			</p>
+		</div>
+		<b class="sanya">
+		<p>旅游胜地</p>京都
+		
+		
+		</b>
+		<img  src="image/34.jpg"/>
+		</div>
+		
+		
+	</div></div>
+	<div class="none" id="xumixu3"><div id="qw3"  class="zjnei-img">
+	
+	
+	
+	
+		<div class="zjnei-wu">
+		<div class="zjnei-yue">
+		<span>月销36700笔</span>
+		<span>共3000条产品</span>
+		</div>
+		<div class="zjnei-lvyou">
+			<p>苦极道</p>
+			<p>￥<b>1386</b>/人起
+			</p>
+		</div>
+		<b class="sanya">
+		<p>旅游胜地</p>苦极道
+		
+		
+		</b>
+		<img src="image/41.jpg"/>
+		
+		</div>
+		
+		
+		
+		
+		
+		<div class="zjnei-wu">
+		<div class="zjnei-yue">
+		<span>月销36700笔</span>
+		<span>共3000条产品</span>
+		</div>
+		<div class="zjnei-lvyou">
+			<p>芽庄</p>
+			<p>￥<b>1486</b>/人起
+			</p>
+			
+		</div>
+		
+		<b class="sanya">
+		<p>旅游胜地</p>芽庄
+		
+		
+		</b>
+		<img src="image/42.jpg"/>
+		</div>
+		
+		
+		
+		
+		
+		
+		<div class="zjnei-wu">
+		<div class="zjnei-yue">
+		<span>月销645200笔</span>
+		<span>共3500条产品</span>
+		</div>
+		<div class="zjnei-lvyou">
+			<p>巴厘岛</p>
+			<p>￥<b>8886</b>/人起
+			</p>
+		</div>
+		
+		<b class="sanya">
+		<p>旅游胜地</p>巴厘岛
+		
+		
+		</b>
+		<img src="image/43.jpg"/>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		<div class="zjnei-wu">
+		<div class="zjnei-yue">
+		<span>月销564700笔</span>
+		<span>共3540条产品</span>
+		</div>
+		<div class="zjnei-lvyou">
+			<p>曼谷</p>
+			<p>￥<b>98788</b>/人起
+			</p>
+		</div>
+		<b class="sanya">
+		<p>旅游胜地</p>曼谷
+		
+		
+		</b>
+		<img  src="image/44.jpg"/>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		<div class="zjnei-wu">
+		<div class="zjnei-yue">
+		<span>月销388700笔</span>
+		<span>共9000条产品</span>
+		</div>
+		<div class="zjnei-lvyou">
+			<p>泰国</p>
+			<p>￥<b>9878</b>/人起
+			</p>
+		</div>
+		<b class="sanya">
+		<p>旅游胜地</p>泰国
+		
+		
+		</b>
+		<img  src="image/51.jpg"/>
+		</div>
+		
+		
+	</div></div>
+	<div  class="none" id="xumixu4"><div id="qw4"   class="zjnei-img">
+	
+	
+	
+	
+		<div class="zjnei-wu">
+		<div class="zjnei-yue">
+		<span>月销36700笔</span>
+		<span>共3000条产品</span>
+		</div>
+		<div class="zjnei-lvyou">
+			<p>巴黎</p>
+			<p>￥<b>1386</b>/人起
+			</p>
+		</div>
+		<b class="sanya">
+		<p>旅游胜地</p>莫斯科
+		
+		
+		</b>
+		<img src="image/52.jpg"/>
+		
+		</div>
+		
+		
+		
+		
+		
+		<div class="zjnei-wu">
+		<div class="zjnei-yue">
+		<span>月销36700笔</span>
+		<span>共3000条产品</span>
+		</div>
+		<div class="zjnei-lvyou">
+			<p>罗马</p>
+			<p>￥<b>1486</b>/人起
+			</p>
+			
+		</div>
+		
+		<b class="sanya">
+		<p>旅游胜地</p>罗马
+		
+		
+		</b>
+		<img src="image/53.jpg"/>
+		</div>
+		
+		
+		
+		
+		
+		
+		<div class="zjnei-wu">
+		<div class="zjnei-yue">
+		<span>月销645200笔</span>
+		<span>共3500条产品</span>
+		</div>
+		<div class="zjnei-lvyou">
+			<p>莫斯科</p>
+			<p>￥<b>8886</b>/人起
+			</p>
+		</div>
+		
+		<b class="sanya">
+		<p>旅游胜地</p>莫斯科
+		
+		
+		</b>
+		<img src="image/54.jpg"/>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		<div class="zjnei-wu">
+		<div class="zjnei-yue">
+		<span>月销564700笔</span>
+		<span>共3540条产品</span>
+		</div>
+		<div class="zjnei-lvyou">
+			<p>圣地利亚斯</p>
+			<p>￥<b>98788</b>/人起
+			</p>
+		</div>
+		<b class="sanya">
+		<p>旅游胜地</p>圣地利亚斯
+		
+		
+		</b>
+		<img  src="image/31.jpg"/>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		<div class="zjnei-wu">
+		<div class="zjnei-yue">
+		<span>月销388700笔</span>
+		<span>共9000条产品</span>
+		</div>
+		<div class="zjnei-lvyou">
+			<p>多伦多</p>
+			<p>￥<b>9878</b>/人起
+			</p>
+		</div>
+		<b class="sanya">
+		<p>旅游胜地</p>多伦多
+		
+		
+		</b>
+		<img  src="image/32.jpg"/>
+		</div>
+		
+		
+	</div></div>
+	<div class="none" id="xumixu5"><div id="qw2"  class="zjnei-img">
+	
+	
+	
+	
+		<div class="zjnei-wu">
+		<div class="zjnei-yue">
+		<span>月销36700笔</span>
+		<span>共3000条产品</span>
+		</div>
+		<div class="zjnei-lvyou">
+			<p>塞班岛</p>
+			<p>￥<b>1386</b>/人起
+			</p>
+		</div>
+		<b class="sanya">
+		<p>旅游胜地</p>塞班岛
+		
+		
+		</b>
+		<img src="image/33.jpg"/>
+		
+		</div>
+		
+		
+		
+		
+		
+		<div class="zjnei-wu">
+		<div class="zjnei-yue">
+		<span>月销36700笔</span>
+		<span>共3000条产品</span>
+		</div>
+		<div class="zjnei-lvyou">
+			<p>洛杉矶</p>
+			<p>￥<b>1486</b>/人起
+			</p>
+			
+		</div>
+		
+		<b class="sanya">
+		<p>旅游胜地</p>洛杉矶
+		
+		
+		</b>
+		<img src="image/34.jpg"/>
+		</div>
+		
+		
+		
+		
+		
+		
+		<div class="zjnei-wu">
+		<div class="zjnei-yue">
+		<span>月销645200笔</span>
+		<span>共3500条产品</span>
+		</div>
+		<div class="zjnei-lvyou">
+			<p>纽约</p>
+			<p>￥<b>8886</b>/人起
+			</p>
+		</div>
+		
+		<b class="sanya">
+		<p>旅游胜地</p>纽约
+		
+		
+		</b>
+		<img src="image/33.jpg"/>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		<div class="zjnei-wu">
+		<div class="zjnei-yue">
+		<span>月销564700笔</span>
+		<span>共3540条产品</span>
+		</div>
+		<div class="zjnei-lvyou">
+			<p>旧金山</p>
+			<p>￥<b>98788</b>/人起
+			</p>
+		</div>
+		<b class="sanya">
+		<p>旅游胜地</p>旧金山
+		
+		
+		</b>
+		<img  src="image/41.jpg"/>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		<div class="zjnei-wu">
+		<div class="zjnei-yue">
+		<span>月销388700笔</span>
+		<span>共9000条产品</span>
+		</div>
+		<div class="zjnei-lvyou">
+			<p>伦敦</p>
+			<p>￥<b>9878</b>/人起
+			</p>
+		</div>
+		<b class="sanya">
+		<p>旅游胜地</p>伦敦
+		
+		
+		</b>
+		<img  src="image/21.jpg"/>
+		</div>
+		
+		
+	</div></div>
+	<div class="none" id="xumixu6"><div id="qw3"  class="zjnei-img">
+	
+	
+	
+	
+		<div class="zjnei-wu">
+		<div class="zjnei-yue">
+		<span>月销36700笔</span>
+		<span>共3000条产品</span>
+		</div>
+		<div class="zjnei-lvyou">
+			<p>迪拜</p>
+			<p>￥<b>1386</b>/人起
+			</p>
+		</div>
+		<b class="sanya">
+		<p>旅游胜地</p>迪拜
+		
+		
+		</b>
+		<img src="image/51.jpg"/>
+		
+		</div>
+		
+		
+		
+		
+		
+		<div class="zjnei-wu">
+		<div class="zjnei-yue">
+		<span>月销36700笔</span>
+		<span>共3000条产品</span>
+		</div>
+		<div class="zjnei-lvyou">
+			<p>悉尼</p>
+			<p>￥<b>1486</b>/人起
+			</p>
+			
+		</div>
+		
+		<b class="sanya">
+		<p>旅游胜地</p>悉尼
+		
+		
+		</b>
+		<img src="image/41.jpg"/>
+		</div>
+		
+		
+		
+		
+		
+		
+		<div class="zjnei-wu">
+		<div class="zjnei-yue">
+		<span>月销645200笔</span>
+		<span>共3500条产品</span>
+		</div>
+		<div class="zjnei-lvyou">
+			<p>毛里求斯</p>
+			<p>￥<b>8886</b>/人起
+			</p>
+		</div>
+		
+		<b class="sanya">
+		<p>旅游胜地</p>毛里求斯
+		
+		
+		</b>
+		<img src="image/53.jpg"/>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		
+		<div class="zjnei-wu">
+		<div class="zjnei-yue">
+		<span>月销564700笔</span>
+		<span>共3540条产品</span>
+		</div>
+		<div class="zjnei-lvyou">
+			<p>墨尔本</p>
+			<p>￥<b>98788</b>/人起
+			</p>
+		</div>
+		<b class="sanya">
+		<p>旅游胜地</p>墨尔本
+		
+		
+		</b>
+		<img  src="image/34.jpg"/>
+		</div>
+		
+		
+		
+		
+		
+		
+		
+		<div class="zjnei-wu">
+		<div class="zjnei-yue">
+		<span>月销388700笔</span>
+		<span>共9000条产品</span>
+		</div>
+		<div class="zjnei-lvyou">
+			<p>克里斯</p>
+			<p>￥<b>9878</b>/人起
+			</p>
+		</div>
+		<b class="sanya">
+		<p>旅游胜地</p>克里斯
+		
+		
+		</b>
+		<img  src="image/54.jpg"/>
+		</div>
+		
+		
+	</div></div>
+		
+	</div>
+
+	
+</div>
+	
+	
+	
+</div>
+
+<!-- 第三块-->
+<div class="sankuai">
+<div class="sknei">
+ <div id="iidkaiguan" class="zjnei-uu">
+
+	<li class="kaiguan">海外酒店<i class="kaisuo"></i></li>
+	<li>海外民宿<i class="kaisuo"></i></li>
+	<li>短期国内酒店<i  class="kaisuo"></i></li>
+	<li>酒店<i  class="kaisuo"></i></li>
+	<li>景点客栈<i  class="kaisuo"></i></li>
+	<li>民宿<i  class="kaisuo"></i></li>
+	<li>团购<i  class="kaisuo"></i></li>
+
+</div>
+<div class="dskw">
+	<div style="float: left" class="xiezi">                                
+
+	<span style="font-size: 15px; font-weight: bold;margin-bottom: 8px;">促销</span>
+	<span><a href="#">睡遍全世界—新加坡国家馆</a></span>
+	<span><a href="#">WOW！海外精选酒店推荐</a></span>
+	<span><a href="#">睡遍全世界—澳大利亚站</a></span>
+	<span><a href="#">华人礼遇尊享特惠</a></span>
+	<span><a href="#">海外热卖酒店都在这</a></span>
+	<span style=" font-size: 15px;font-weight: bold;margin-bottom: 8px;margin-top: 5px;">发现酒店</span>
+	<span><a href="#">希腊雅典的高端酒店</a></span>
+	<span><a href="#">日本奈良的特色日式旅馆</a></span>
+	<span><a href="#">日本京都热选酒店</a></span>
+	<span><a href="#">京都感洛酒店</a></span>
+		
+		
+		
+	</div>
+
+	<div id="rrmtp" style="float: right" class="rmcs">
+		<li class="laopao-s">热门城市</li>
+		<li>都市购物</li>
+		<li>海岛休闲</li>
+		<li>旅游胜地</li>
+		<span style="padding-right: 20px;"><a href="#">更多海外酒店></a></span>
+			<div class="rmcs-tp">
+			
+			
+			
+			
+				<img style="float: right;cursor: pointer;" src="image/t8.jpg"/>
+			<div class="rmcs-tp-hz">
+			<div class="rmcs-tp-hz-tp">
+				<img src="image/t1.jpg"/>
+				<div class="rmcs-tp-hz-tp-wz">
+					<p>新加坡</p>
+					<p>￥<b style="font-size: 18px;color: red;">70</b>起</p>
+				</div>
+				
+			</div>
+			
+			
+				
+			</div>
+			<div class="rmcs-tp-hz">
+			<div class="rmcs-tp-hz-tp">
+				<img src="image/t2.jpg"/>
+				<div class="rmcs-tp-hz-tp-wz">
+					<p>新加坡</p>
+					<p>￥<b style="font-size: 18px;color: red;">70</b>起</p>
+				</div>
+				
+			</div>
+			
+			
+				
+			</div>
+			<div class="rmcs-tp-hz">
+			<div class="rmcs-tp-hz-tp">
+				<img src="image/t3.jpg"/>
+				<div class="rmcs-tp-hz-tp-wz">
+					<p>曼谷</p>
+					<p>￥<b style="font-size: 18px;color: red;">70</b>起</p>
+				</div>
+				
+			</div>
+			
+			
+				
+			</div>
+			<div class="rmcs-tp-hz">
+			<div class="rmcs-tp-hz-tp">
+				<img src="image/t4.jpg"/>
+				<div class="rmcs-tp-hz-tp-wz">
+					<p>大阪</p>
+					<p>￥<b style="font-size: 18px;color: red;">70</b>起</p>
+				</div>
+				
+			</div>
+			
+			
+				
+			</div>
+			<div class="rmcs-tp-hz">
+			<div class="rmcs-tp-hz-tp">
+				<img src="image/t5.jpg"/>
+				<div class="rmcs-tp-hz-tp-wz">
+					<p>东京</p>
+					<p>￥<b style="font-size: 18px;color: red;">70</b>起</p>
+				</div>
+				
+			</div>
+			
+			
+				
+			</div>
+			<div class="rmcs-tp-hz">
+			<div class="rmcs-tp-hz-tp">
+				<img src="image/t6.jpg"/>
+				<div class="rmcs-tp-hz-tp-wz">
+					<p>吉隆坡</p>
+					<p>￥<b style="font-size: 18px;color: red;">70</b>起</p>
+				</div>
+				
+			</div>
+			
+			
+				
+			</div>
+			
+			
+		
+		
+		
+		
+		
+	</div>
+	</div>
+
+	
+	
+	
+	
+</div>
+	
+	
+	
+</div>
+</div>
+<div class="sankuai">
+<div class="sknei">
+ <div id="fiidkaiguan" class="zjnei-uu">
+
+	<li class="kaiguan">国际•港澳台特价机票<i class="kaisuo"></i></li>
+	<li>国内特价机票<i class="kaisuo"></i></li>
+	
+
+</div>
+	<div class="zjnei-tp" style="overflow: hidden;">
+	<p id="ttrmtp" class="laop">
+		<b onClick=""><span class="laop-s">热门往返</span></b>
+		<b onClick=""><span >亚洲</span></b>
+		<b onClick=""><span>欧洲</span></b>
+		<b onClick=""><span>美洲</span></b>
+		<b onClick=""><span>非洲</span></b>
+	
+	</p>
+	
+	
+	
+	<div class="chepiao">
+		<div class="chepiao-dd">
+			<p>上海<i class="iconfont icon-laihui"></i>
+			曼谷</p>
+			<p>12月04日 - 12月11日</p>
+			<p>
+			￥<b style="color: red; font-size: 18px;">76</b>起
+			<button>立抢</button>
+			</p>
+		</div>
+		
+		<div class="chepiao-dd">
+			<p>上海<i class="iconfont icon-laihui"></i>
+		吉隆坡</p>
+			<p>12月04日 - 12月11日</p>
+			<p>
+			￥<b style="color: red; font-size: 18px;">461</b>起
+			<button>立抢</button>
+			</p>
+		</div>
+		
+		<div class="chepiao-dd">
+			<p>上海<i class="iconfont icon-laihui"></i>
+			悉尼</p>
+			<p>12月04日 - 12月11日</p>
+			<p>
+			￥<b style="color: red; font-size: 18px;">123</b>起
+			<button>立抢</button>
+			</p>
+		</div>
+		
+		<div class="chepiao-dd">
+			<p>上海<i class="iconfont icon-laihui"></i>
+			胡志明市</p>
+			<p>12月04日 - 12月11日</p>
+			<p>
+			￥<b style="color: red; font-size: 18px;">7500</b>起
+			<button>立抢</button>
+			</p>
+		</div>
+		
+		<div class="chepiao-dd">
+			<p>上海<i class="iconfont icon-laihui"></i>
+			台北</p>
+			<p>12月04日 - 12月11日</p>
+			<p>
+			￥<b style="color: red; font-size: 18px;">556</b>起
+			<button>立抢</button>
+			</p>
+		</div>
+		
+		<div class="chepiao-dd">
+			<p>上海<i class="iconfont icon-laihui"></i>
+			首尔</p>
+			<p>12月04日 - 12月11日</p>
+			<p>
+			￥<b style="color: red; font-size: 18px;">6566</b>起
+			<button>立抢</button>
+			</p>
+		</div>
+		
+		
+		<div class="chepiao-dd">
+			<p>上海<i class="iconfont icon-laihui"></i>
+			台北</p>
+			<p>12月04日 - 12月11日</p>
+			<p>
+			￥<b style="color: red; font-size: 18px;">256</b>起
+			<button>立抢</button>
+			</p>
+		</div>
+		
+		
+		<div class="chepiao-dd">
+			<p>上海<i class="iconfont icon-laihui"></i>
+			澳门</p>
+			<p>12月04日 - 12月11日</p>
+			<p>
+			￥<b style="color: red; font-size: 18px;">656</b>起
+			<button>立抢</button>
+			</p>
+		</div>
+		
+		
+		<div class="chepiao-dd">
+			<p>上海<i class="iconfont icon-laihui"></i>
+			巴黎</p>
+			<p>12月04日 - 12月11日</p>
+			<p>
+			￥<b style="color: red; font-size: 18px;">7986</b>起
+			<button>立抢</button>
+			</p>
+		</div>
+		
+		
+		<div class="chepiao-dd">
+			<p>上海<i class="iconfont icon-laihui"></i>
+			釜山</p>
+			<p>12月04日 - 12月11日</p>
+			<p>
+			￥<b style="color: red; font-size: 18px;">987</b>起
+			<button>立抢</button>
+			</p>
+		</div>
+		
+		
+		<div class="chepiao-dd">
+			<p>上海<i class="iconfont icon-laihui"></i>
+			伦敦</p>
+			<p>12月04日 - 12月11日</p>
+			<p>
+			￥<b style="color: red; font-size: 18px;">98789</b>起
+			<button>立抢</button>
+			</p>
+		</div>
+		
+		
+		<div class="chepiao-dd">
+			<p>上海<i class="iconfont icon-laihui"></i>
+			新加坡</p>
+			<p>12月04日 - 12月11日</p>
+			<p>
+			￥<b style="color: red; font-size: 18px;">85465</b>起
+			<button style="float: right">立抢</button>
+			</p>
+		</div>
+		
+		
+	</div>
+	
+	<img style="float: left;cursor: pointer" src="image/88.jpg"/>
+	
+	
+	
+	</div>
+
+	
+	
+	
+</div>
+</div>
+
+<div class="sankuai">
+<div style="border-bottom: 1px dashed #9A9A9A;" class="sknei">
+ <div id="iidkaiguan" class="zjnei-uu">
+
+	<li class="kaiguan">境外租车<i class="kaisuo"></i></li>
+	<li>境外接送机<i class="kaisuo"></i></li>
+	<li>国内租车<i  class="kaisuo"></i></li>
+	<li>国内接送机<i  class="kaisuo"></i></li>
+	<li>日租包车<i  class="kaisuo"></i></li>
+	
+
+</div>
+<div class="dskw">
+	<div style="float: left;margin-right: 0px;border-bottom: 0px;border-right:1px dashed #9A9A9A; " class="xiezi">                                
+
+	<span style="font-size: 14px; font-weight: bold;margin-bottom: 0px;margin-top: 5px;margin-left: 23px;">热门城市</span>
+  <div style="padding-left: 15px;padding-right: 11px;" class="lssji">
+   <a href="#">洛杉矶<i>H</i></a>
+   <a href="#">旧金山<i>H</i></a>
+   <a href="#">墨尔本<i>H</i></a>
+   <a href="#">纽约<i>H</i></a>
+   <a href="#">曼谷<i>H</i></a>
+   <a href="#">基督城<i>H</i></a>
+   <a href="#">普吉岛<i>H</i></a>
+   <a href="#">温哥华<i>H</i></a>
+   <a href="#">悉尼<i>H</i></a>
+   <a href="#">奥克兰<i>H</i></a>
+   <a href="#">拉斯维加斯<i>H</i></a>
+   <a href="#">西雅图<i>H</i></a>
+   <a href="#">伦敦<i>H</i></a>
+    <a href="#">西雅图<i>H</i></a>
+   <a href="#">伦敦<i>H</i></a>
+   <a style="border: 0;" href="#">法兰克福<i>H</i></a>
+
+		</div>
+		
+		
+	</div>
+
+	<div  id="yyrrmtp" style="float: right;border: 0;margin-left: 0px;border-right: 1px dashed #9A9A9A;height: 262px;" class="rmcs">
+		<li class="laopao-s">小型轿车</li>
+		<li>中型轿车</li>
+		<li>大型轿车</li>
+		<li>高档轿车</li>
+		<li>中型suv</li>
+		<li>标准suv</li>
+		<li>全尺寸suv</li>
+		<span style="padding-right: 20px;"><a href="#">更多境外租车></a></span>
+		<div style=""><div style="padding-right:  10px;overflow: inherit;" class="rmcs-tp">
+			<div class="cheche-cheche">
+				<img src="image/车子3.png"/>
+				<p>美国&nbsp;洛杉矶</p>
+				<span style="float: left;margin-left: 20px;color: #9E9E9E;">自驾梦幻1号公路</span><span style="float: right;margin-right: 20px;margin-top: -10px;"><b style="vertical-align: 7px;">￥</b><dfn>248</dfn ><b style="vertical-align: 7px;">起</b></span>
+				
+				
+			</div>
+				<div class="cheche-cheche">
+				<img src="image/车子1.png"/>
+				<p>美国&nbsp;洛杉矶</p>
+				<span style="float: left;margin-left: 20px;color: #9E9E9E;">自驾梦幻1号公路</span><span style="float: right;margin-right: 20px;margin-top: -10px;"><b style="vertical-align: 7px;">￥</b><dfn>248</dfn ><b style="vertical-align: 7px;">起</b></span>
+				
+				
+			</div>
+				<div class="cheche-cheche">
+				<img src="image/车子.png"/>
+				<p>美国&nbsp;洛杉矶</p>
+				<span style="float: left;margin-left: 20px;color: #9E9E9E;">自驾梦幻1号公路</span><span style="float: right;margin-right: 20px;margin-top: -10px;"><b style="vertical-align: 7px;">￥</b><dfn>248</dfn ><b style="vertical-align: 7px;">起</b></span>
+				
+				
+			</div>
+				<div class="cheche-cheche">
+				<img src="image/车子2.png"/>
+				<p>美国&nbsp;洛杉矶</p>
+				<span style="float: left;margin-left: 20px;color: #9E9E9E;">自驾梦幻1号公路</span><span style="float: right;margin-right: 20px;margin-top: -10px;"><b style="vertical-align: 7px;">￥</b><dfn>248</dfn ><b style="vertical-align: 7px;">起</b></span>
+				
+				
+			</div>
+			
+			
+			
+			
+
+			
+			
+		
+		
+		
+		
+		
+	</div>
+	</div>
+	</div>
+	
+	
+	
+	
+</div>
+	
+	
+	
+</div>
+</div>
+<div class="sankuai">
+<div class="sknei">
+ <div id="iidkaiguan" class="zjnei-uu">
+
+	<li class="kaiguan">当地玩乐• 出境<i class="kaisuo"></i></li>
+	<li>当地完乐•境内 <i class="kaisuo"></i></li>
+
+
+	
+
+</div>
+<div class="dskw">
+	<div style="float: left" class="xiezi">                                
+
+	<span style="font-size: 14px; font-weight: bold;margin-bottom: 0px;margin-top: 5px;margin-left: 23px;">热门目的地</span>
+  <div style="padding-left: 15px;padding-right: 11px;" class="lssjif">
+   <a href="#">普吉岛</a>
+   <a href="#">曼谷</a>
+   <a href="#">东京</a>
+   <a href="#">清迈</a>
+   <a href="#">香港</a>
+   <a href="#">芽庄</a>
+   <a href="#">巴厘岛</a>
+   <a href="#">沙巴</a>
+   <a href="#">大阪</a>
+   <a href="#">上海</a>
+   <a href="#">澳门</a>
+   <a href="#">迪拜</a>
+   <a href="#">伦敦</a>
+    <a href="#">台北</a>
+   <a href="#">悉尼</a>
+   <a style="border: 0;" href="#">法兰克福</a>
+
+		</div>
+		
+		
+	</div>
+
+	<div  id="fyyrrmtp" style="float: right;border-bottom: 1px inherit #9a9a9a;height: 227px;" class="rmcs">
+		<li class="laopao-s">一日游</li>
+		<li>演出/赛事</li>
+		<li>交通接驳</li>
+		<li>当地mei美食</li>
+		<li>游船观光</li>
+		<li>spa水疗</li>
+		<li>特色体验</li>
+		<span style="padding-right: 20px;"><a href="#">更多当地玩乐></a></span>
+			<div style="padding-right:  10px;height: 185px;" class="rmcs-tp">
+			
+			
+			
+			<div style="height: 165px;" class="cheche-cheche" id="jkii">
+				<img src="image/cs.jpg"/>
+				<p style="margin-top: 3px;">日本冲绳县万座毛+古宇利岛+冲绳</p>
+				<span style="float: left;margin-left: 20px;color: #9E9E9E;">自驾梦幻1号公路</span><span style="float: right;margin-right: 20px;margin-top: -10px;"><b style="vertical-align: 7px;">￥</b><dfn>248</dfn ><b style="vertical-align: 7px;">起</b></span>
+				
+				
+			</div>
+				<div style="height: 165px;"  class="cheche-cheche" id="jkii">
+				<img src="image/oo.jpg"/>
+				<p style="margin-top: 3px;">清莱白庙+黑庙+蓝庙一日游</p>
+				<span style="float: left;margin-left: 20px;color: #9E9E9E;">自驾梦幻1号公路</span><span style="float: right;margin-right: 20px;margin-top: -10px;"><b style="vertical-align: 7px;">￥</b><dfn>248</dfn ><b style="vertical-align: 7px;">起</b></span>
+				
+				
+			</div>
+				<div  style="height: 165px;" class="cheche-cheche" id="jkii">
+				<img src="image/pp.jpg"/>
+				<p style="margin-top: 3px;">泰国曼谷丹嫩沙多水集市+美工帖</p>
+				<span style="float: left;margin-left: 20px;color: #9E9E9E;">自驾梦幻1号公路</span><span style="float: right;margin-right: 20px;margin-top: -10px;"><b style="vertical-align: 7px;">￥</b><dfn>248</dfn ><b style="vertical-align: 7px;">起</b></span>
+				
+				
+			</div>
+			
+				<div  style="height: 165px;" class="cheche-cheche" id="jkii">
+				<img src="image/ii.jpg"/>
+				<p style="margin-top: 3px;">沙巴红树林一日游+spaa</p>
+				<span style="float: left;margin-left: 20px;color: #9E9E9E;">自驾梦幻1号公路</span><span style="float: right;margin-right: 20px;margin-top: -10px;"><b style="vertical-align: 7px;">￥</b><dfn>248</dfn ><b style="vertical-align: 7px;">起</b></span>
+				
+				</div>
+			</div>
+			
+			
+			
+			
+
+			
+			
+		
+		
+		
+		
+		
+	</div>
+	</div>
+
+	
+	
+	
+	
+</div>
+	
+	
+	
+</div>
+<div class="sankuai">
+<div class="sknei">
+ <div id="iidkaiguan" class="zjnei-uu">
+
+	<li class="kaiguan">全球购<i class="kaisuo"></i></li>
+	
+
+
+	
+
+</div>
+<div class="dskw">
+	<div style="float: left" class="xiezi">                                
+
+	<span style="font-size: 14px; font-weight: bold;margin-bottom: 0px;margin-top: 5px;margin-left: 23px;">热门目的地</span>
+  <div style="padding-left: 15px;padding-right: 11px;" class="lssjif">
+   <a href="#">香港</a>
+   <a href="#">澳门<i>H</i></a>
+   <a href="#">日本<i>H</i></a>
+   <a href="#">英国</a>
+   <a href="#">新加坡</a>
+   <a href="#">法国</a>
+   <a href="#">西班牙</a>
+   <a href="#">澳大利亚<i>H</i></a>
+   <a href="#">美国</a>
+   <a href="#">柬埔寨</a>
+   <a href="#">泰国</a>
+   <a href="#">德国</a>
+   <a href="#">新西兰</a>
+    <a href="#">马来西亚</a>
+   <a href="#">阿联酋</a>
+   <a style="border: 0;" href="#">法兰克福</a>
+
+		</div>
+		
+		
+	</div>
+
+	<div  id="fyyrrmtp" style="float: right;border-bottom: 1px inherit #9a9a9a;height: 227px;" class="rmcs">
+		<li class="laopao-s">热门商户</li>
+		<li>综合商场</li>
+		<li>奢品大牌</li>
+		<li>口碑推荐</li>
+		<li >新店首选</li>
+		
+		<span style="padding-right: 20px;"><a href="#">更多全球名店></a></span>
+			<div style="padding-right:  10px;height: 185px;" class="rmcs-tp">
+			
+			
+			
+			<div style="height: 165px;" class="cheche-cheche" id="jkii">
+				<img src="image/w4.jpg"/>
+				<p style="margin-top: 3px;margin-left: 2px;">DES旗下广场（香港广东道店）...</p>
+				<span style="float: left;margin-left: 20px;color: #9E9E9E;margin-left: 2px;">中国•香港</span><span style="float: right;margin-right: 5px;margin-top: -10px;"><b style="vertical-align: 7px;"></b><dfn style="display: inline-block;
+				border:1px solid red;font-size: 12px;">返现</dfn ><b style="vertical-align: 7px;"></b></span>
+				
+				
+			</div>
+				<div style="height: 165px;"  class="cheche-cheche" id="jkii">
+				<img src="image/w1.jpg"/>
+				<p style="margin-top: 3px;margin-left: 2px;">迪拜国际机场T2航站楼（2号厅）</p>
+				<span style="margin-left: 2px;float: left;margin-left: 20px;color: #9E9E9E;">阿联酋•迪拜</span><span style="float: right;margin-right: 5px;margin-top: -10px;"><b style="vertical-align: 7px;"></b><dfn style="display: inline-block;
+				border:1px solid red;font-size: 12px;">返现</dfn ><b style="vertical-align: 7px;"></b></span>
+				
+				
+			</div>
+				<div  style="height: 165px;" class="cheche-cheche" id="jkii">
+				<img src="image/w2.jpg"/>
+				<p style="margin-left: 2px;margin-top: 3px;">高岛屋（新宿店）</p>
+				<span style="margin-left: 2px;float: left;margin-left: 5px;color: #9E9E9E;">日本•大阪</span><span style="float: right;margin-right: 5px;margin-top: -10px;"><b style="vertical-align: 7px;"></b><dfn style="display: inline-block;
+				border:1px solid red;font-size: 12px;">返现</dfn ><b style="vertical-align: 7px;"></b></span>
+				
+				
+			</div>
+			
+				<div  style="height: 165px;" class="cheche-cheche" id="jkii">
+				<img src="image/w3.jpg"/>
+				<p style="margin-left: 2px;margin-top: 3px;">日上免税行</p>
+				<span style="margin-left: 10px;float: left;margin-left: 5px;color: #9E9E9E;">中国•上海</span><span style="float: right;margin-right: 5px;margin-top: -10px;"><b style="vertical-align: 7px;"></b><dfn style="display: inline-block;
+				border:1px solid red;font-size: 12px;">返现</dfn ><b style="vertical-align: 7px;"></b></span>
+				
+				</div>
+			</div>	
+	</div>
+	</div>	
+</div>	
+</div>
+<div class="sankuai">
+<div style="border-bottom: 1px dashed #9A9A9A;" class="sknei">
+ <div id="riidkaiguan" class="zjnei-uu">
+
+	<li class="kaiguan">目的地攻略<i class="kaisuo"></i></li>
+	<li>旅游旗舰店<i class="kaisuo"></i></li>
+	
+	
+
+</div>
+<div class="dskw">
+	<div style="float: left;margin-right: 0px;border-bottom: 0px;border-right:1px dashed #9A9A9A;height: 264px; " class="xiezi">                                
+
+	<span style="font-size: 14px; font-weight: bold;margin-bottom: 0px;margin-top: 5px;margin-left: 23px;">当季推荐</span>
+  <div style="padding-left: 15px;padding-right: 11px;" class="lssji">
+  
+  <p ><a style="border: 0" href="#">圣托里尼：永恒的蓝白世界</a></p>
+  <p ><a style="border: 0" href="#">哥本哈根：安徒生的童话世界</a></p>
+  <p ><a style="border: 0" href="#">圣彼得堡：迤逦的北方威尼斯</a></p>
+  <p ><a style="border: 0" href="#">清迈：文艺清新的泰北明珠</a></p>
+  <p ><a style="border: 0" href="#">柏林：啤酒相约猪肘</a></p>
+ 
+
+		</div>
+		
+		
+	</div>
+
+	<div  id="yyrrmtp" style="float: right;border: 0;margin-left: 0px;border-right: 1px dashed #9A9A9A;height: 262px;" class="rmcs">
+		<li class="laopao-s">小型轿车</li>
+		<li>中型轿车</li>
+		<li>大型轿车</li>
+		<li>高档轿车</li>
+		<li>中型suv</li>
+		<li>标准suv</li>
+		<li>全尺寸suv</li>
+		<span style="padding-right: 20px;"><a href="#">更多境外租车></a></span>
+		<div style=""><div style="padding-right:  10px;overflow: inherit;" class="rmcs-tp">
+			<div id="mddm" style="height: 170px;" class="cheche-cheche">
+				<img style="height: 170px;" src="image/e.jpg"/>
+				<p style="text-align: center;line-height: 40px;color: aliceblue;
+				background:rgba(0,0,0,0.5);margin-left:0px;margin-botton:0px;">特工王牌超级度假地&nbsp;&nbsp;</p>
+				
+				
+				
+			</div>
+				<div id="mddm" style="height: 170px;" class="cheche-cheche">
+				<img style="height: 170px;" src="image/e2.jpg"/>
+				<p style="text-align: center;line-height: 40px;color: aliceblue;
+				background:rgba(0,0,0,0.5);margin-left:0px;margin-botton:0px;">三亚防坑指南&nbsp;&nbsp;</p>
+				
+				
+				
+			</div>
+				<div id="mddm" style="height: 170px;" class="cheche-cheche">
+				<img style="height: 170px;" src="image/e3.jpg"/>
+				<p style="text-align: center;line-height: 40px;color: aliceblue;
+				background:rgba(0,0,0,0.5);margin-left:0px;margin-botton:0px;">万塔塔之城缅甸&nbsp;&nbsp;</p>
+				
+				
+				
+			</div>
+				<div id="mddm" style="height: 170px;" class="cheche-cheche">
+				<img style="height: 170px;" src="image/e4.jpg"/>
+				<p style="text-align: center;line-height: 40px;color: aliceblue;
+				background:rgba(0,0,0,0.5);margin-left:0px;margin-botton:0px;">谁去澳门买猪肉脯&nbsp;&nbsp;</p>
+				
+				
+				
+			</div>
+			
+			
+			
+
+			
+			
+		
+		
+		
+		
+		
+	</div>
+	</div>
+	</div>
+	
+	
+	
+	
+</div>
+	
+	
+	
+</div>
+</div>
+	
+
+	
+	<div class="zjwai">
+<div class="zjnei">
+<div id="idkaiguan" class="zjnei-uu">
+
+	<li class="kaiguan">旅行服务<i class="kaisuo"></i></li>
+
+</div>
+	<div class="lvxing-san">
+	<div class="wifi">
+		<div class="wifi-tp">
+			<div class="wifi-tp-wf"><i></i></div>
+			<div class="wifi-tp-wz">
+				<p>出境wifi</p>
+				<p>全境wifi租赁</p>
+				<p>流量不限，多人共享，携带便捷，低价信号强</p>
+			</div>
+			
+		</div>
+		<div class="wifi-di">
+			<a href="#"><i><img src="image/打完这把.png"/></i>日本</a>
+			<a href="#"><i><img src="image/打完这把.png"/></i>韩国</a>
+			<a href="#"><i><img src="image/打完这把.png"/></i>欧洲通用</a>
+			<a href="#"><i><img src="image/打完这把.png"/></i>更多</a>
+			
+			
+			
+		</div>
+	</div>
+		<div class="qianz">
+			
+				<div class="wifi-tp">
+			<div id="ezzz" class="wifi-tp-wf"><i id="qzz"></i></div>
+			<div class="wifi-tp-wz">
+				<p>签证</p>
+				<p>在材料制作完成前均可申请订单全额退款</p>
+				<p>在材料制作完成前均可申请订单全额退款</p>
+			</div>
+			
+		</div>
+		<div class="wifi-di">
+			<a href="#"><i><img src="image/a1.png"/></i>日本</a>
+			<a href="#"><i><img src="image/a2.png"/></i>韩国</a>
+			<a href="#"><i><img src="image/a3.png"/></i>美国</a>
+			<a href="#"><i><img src="image/a44.jpg"/></i>澳大利亚</a>
+			
+			
+			
+		</div>
+		</div>
+		<div class="baoxian">
+				<div class="wifi-tp">
+			<div id="rzzz" class="wifi-tp-wf"><i id="bxx"></i></div>
+			<div class="wifi-tp-wz">
+				<p>保险</p>
+				<p>携程保险，安全随性</p>
+				<p>旅游定制、极速出保、便捷理赔</p>
+			</div>
+			
+		</div>
+		<div class="wifi-di">
+			<a href="#"><i><img src="image/s1.png"/></i>日本</a>
+			<a href="#"><i><img src="image/s2.png"/></i>韩国</a>
+			<a href="#"><i><img src="image/s2.png"/></i>欧洲通用</a>
+			<a href="#"><i><img src="image/s1.png"/></i>更多</a>
+			
+			
+			
+		</div>
+		</div>
+		
+	</div>
+
+		<div class="zjwai">
+<div class="zjnei">
+<div id="idkaiguan" class="zjnei-uu">
+
+	<li  class="kaiguan">旅行服务<i class="kaisuo"></i></li>
+
+</div>
+	<div class="lvxing-san">
+	<div class="wifi">
+		<div style="padding-bottom: 20px;
+	" class="wifi-tp">
+			<div id="wzzz" class="wifi-tp-wf"><i></i></div>
+			<div class="wifi-tp-wz">
+				<p>出境wifi</p>
+				<p>全境wifi租赁</p>
+				<p>流量不限，多人共享，携带便捷，低价信号强</p>
+			</div>
+			
+		</div>
+		
+	</div>
+		<div style="padding-bottom: 20px;
+	" class="qianz">
+			
+				<div class="wifi-tp">
+			<div id="qzzz" class="wifi-tp-wf"><i id="qzz"></i></div>
+			<div class="wifi-tp-wz">
+				<p>签证</p>
+				<p>在材料制作完成前均可申请订单全额退款</p>
+				<p>在材料制作完成前均可申请订单全额退款</p>
+			</div>
+			
+		</div>
+		
+		</div>
+		<div style="padding-bottom: 20px;
+	" class="baoxian">
+				<div class="wifi-tp">
+			<div id="bxxx" class="wifi-tp-wf"><i id="bxx"></i></div>
+			<div class="wifi-tp-wz">
+				<p>保险</p>
+				<p>携程保险，安全随性</p>
+				<p>旅游定制、极速出保、便捷理赔</p>
+			</div>
+			
+		</div>
+	
+		</div>
+		
+	</div>
+
+	</di>
+	</div>
+	</div>
+	
+<div class="qiye-w">
+	<div class="qiye-n">
+	<div class="qiye-n-d">
+		<div class="qiye-n-z">
+			<p><span>合作优惠</span><a href="#">更多</a></p>
+			<p>光大信用卡约惠旅游季
+               </p>
+			<p>
+                上海建行指定龙卡专享</p>
+		</div>
+		<div class="qiye-n-y">
+		<ul style="position: relative;padding-right: 6px;">
+		<p style="font-weight: bold;position: absolute;top: 10px;left: 20px;font-size: 16px;">合作关系</p>
+			<li>
+				
+				<a style=""></a>
+			</li>
+			<li>
+				
+				<a style="background-position: 0 -33px;"></a>
+			</li>
+			<li>
+				
+				<a style="background-position: 0 -66px;"></a>
+			</li>
+			<li>
+				
+				<a style="background-position: 0 -99px;"></a>
+			</li>
+			<li>
+				
+				<a style="background-position: 0 -132px;"></a>
+			</li>
+			<li>
+				
+				<a style="background-position: 0 -165px;"></a>
+			</li>
+		</ul>
+			
+			
+			
+		</div>
+		
+	</div>
+	<div class="qiye-n-zi">
+		<dl>
+		<dt>携程导航</dt>
+		<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+	        <dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+
+		</dl>
+		<div class="qiye-n-xian"></div>
+		<dl>
+		<dt>携程导航</dt>
+		<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+	        <dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+
+		</dl>
+		<div class="qiye-n-xian"></div>
+		<dl>
+		<dt>携程导航</dt>
+		<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+	        <dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+
+		</dl>
+		<div class="qiye-n-xian"></div>
+		<dl>
+		<dt>携程导航</dt>
+		<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+	        <dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+
+		</dl>
+		<div class="qiye-n-xian"></div>
+		<dl>
+		<dt>携程导航</dt>
+		<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+	        <dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+
+		</dl>
+		<div class="qiye-n-xian"></div>
+		<dl>
+		<dt>携程导航</dt>
+		<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+	        <dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+			<dd>酒店预订</dd>
+
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+		
+	</div>
+	
+	
+</div>
+
+<div class="dibu">
+	<div class="dibu-nei">
+		
+		<div class="dibu-yi">
+			<p class="dibu-yi-p">为什么选择携程</p>
+			<p style="margin-bottom: 15px;"><i></i><span style="color: #0061F8;font-size: 16px;">放心的服务</span><span style="display: block;">领先的服务标准 独创的保障体系</span></p>
+			<p> <i id="iii"></i><span style="color:#FFA108;font-size: 16px;">放心的服务</span><span style="display: block;">领先的服务标准 独创的保障体系</span></p>
+			
+			
+		</div>
+		<div class="dibu-er">
+			<p>旅游咨询</p>
+			<a href="#">宾馆索引&nbsp;&nbsp; 攻略索引</a>
+			<a href="#">宾馆索引&nbsp;&nbsp; 攻略索引</a>
+			<a href="#">宾馆索引 &nbsp;&nbsp;攻略索引</a>
+			<a href="#">宾馆索引&nbsp;&nbsp; 攻略索引</a>
+			
+		</div>
+		<div class="dibu-er">
+			<p>旅游咨询</p>
+			<a href="#">宾馆索引&nbsp;&nbsp; 攻略索引</a>
+			<a href="#">宾馆索引&nbsp;&nbsp; 攻略索引</a>
+			<a href="#">宾馆索引 &nbsp;&nbsp;攻略索引</a>
+			<a href="#">宾馆索引&nbsp;&nbsp; 攻略索引</a>
+			
+		</div>
+		<div class="dibu-er">
+			<p>旅游咨询</p>
+			<a href="#">宾馆索引&nbsp;&nbsp; 攻略索引</a>
+			<a href="#">宾馆索引&nbsp;&nbsp; 攻略索引</a>
+			<a href="#">宾馆索引 &nbsp;&nbsp;攻略索引</a>
+			<a href="#">宾馆索引&nbsp;&nbsp; 攻略索引</a>
+			
+		</div>
+		<div class="dibu-wu">
+			<p>微信公众号</p>
+			<img src="image/weix.jpg"/>
+		</div>
+		
+		
+		
+	</div>
+	
+	
+	
+</div>
+<div class="dididi">
+<p>Copyright©1999-2018, ctrip.com. All rights reserved. | ICP证：沪B2-20050130</p>
+<p>沪公网备31010502002731号</p>
+<p>违法和不良信息举报电话+8613501922340丨上海市旅游网站落实诚信建设主体责任承诺书</p>
+	
+	
+	<p class="hmda">
+	
+		<a href="#"><i></i>信用评级</a>
+		<a href="#"><i></i>上海工商</a>
+		<a href="#"><i></i></a>
+		<a href="#"><i></i></a>
+		<a href="#"><i></i></a>
+		<a href="#"><i></i></a>
+		<a href="#"><i></i></a>
+		<a href="#"><i></i></a>
+		<a href="#"><i></i></a>
+		<a href="#"><i></i></a>
+		<a href="#"><i></i></a>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</p>
+	
+	
+		</div>	
+<br/>
+<br/>
+
+
+
+
+<img id="imga" src="image/js1.png"/>
+
+
+<div id="imag">
+<div id="imagg">
+<img  src="image/js.png"/>
+
+
+<div class="imag-hz">
+<p>扫面二维码下载</p>
+	<img style="width: 110px;height: 110px;" src="image/pc_activity_2_qcode.png"/>
+	<button id="chadiao" >×</button>
+	</div>
+	</div>
+		</div>
+		
+		
+		
+		
+		
+
+		
+<script>
+	
+var imga=document.getElementById("imga");
+var imag=document.getElementById("imag");
+var botton=document.getElementById("chadiao");
+var dingshiqi;
+var shidingqi;
+	
+	
+
+	
+	
+	
+	
+	
+imag.onmouseout=function out(){
+	dingshiqi=setTimeout("hanshu()",3000);
+	
+}
+	imag.onmouseover=function over(){
+		clearTimeout(dingshiqi);
+		
+	}
+	
+	imga.onclick=function iimmgg(){
+		imag.style.left="0px";
+		imga.style.left="-124px";
+	
+	
+		
+	}
+	botton.onclick=function chadiaoh(){
+		
+		hanshu();
+		
+	}
+
+	
+	function hanshu(){
+	imga.style.left="0px";
+		imag.style.left="-200%";
+		
+	}
+		
+</script>
+<script>
+	
+ window.onload=onlolo();
+	
+	
+	function onlolo(){
+		var kjkj=document.getElementById("xumixu0");
+		kjkj.style.display="block";
+	}
+	function kele(vv){
+		var vkeleji=document.getElementById("xumixu"+vv);
+		jdmp();
+		vkeleji.style.display="block";
+		
+	}
+	
+	
+	function jdmp(){
+		for(var i=0;i<7;i++){
+			var keleji=document.getElementById("xumixu"+i);
+			keleji.style.display="none";
+			
+		}
+	}
+	</script>
+
+
+
+
+
+
+
+<script>
+
+	var rtt=document.getElementById("rrmtp").getElementsByTagName("li");
+    
+	for(var ixc=0;ixc<rtt.length;ixc++){
+		rtt[ixc].onclick=function rtt(){
+			trrtp();
+			this.className="laopao-s";
+		
+		
+			
+		}
+
+	}
+	
+	
+	
+	function  trrtp(){
+		for(var i=0;i<4;i++){
+		rtt[i].className=" ";
+			
+		}
+		
+	}
+	
+	
+	</script>
+	
+	
+	<script>
+	var yyrtt=document.getElementById("yyrrmtp").getElementsByTagName("li");
+    
+	for(var ixc=0;ixc<yyrtt.length;ixc++){
+		yyrtt[ixc].onclick=function yyrtt(){
+			yytrrtp();
+			this.className="laopao-s";
+		
+		
+			
+		}
+
+	}
+	
+	
+	
+	function  yytrrtp(){
+		for(var i=0;i<7;i++){
+		yyrtt[i].className=" ";
+			
+		}
+		
+	}
+	
+	
+	</script>
+	
+	
+	<script>
+	var fyyrtt=document.getElementById("fyyrrmtp").getElementsByTagName("li");
+    
+	for(var ixc=0;ixc<fyyrtt.length;ixc++){
+		fyyrtt[ixc].onclick=function fyyrtt(){
+			fyytrrtp();
+			this.className="laopao-s";
+		
+		
+			
+		}
+
+	}
+	
+	
+	
+	function  fyytrrtp(){
+		for(var i=0;i<7;i++){
+		fyyrtt[i].className=" ";
+			
+		}
+		
+	}
+	
+	
+	</script>
+
+<!--热门图片-->
+
+	
+	
+	
+	
+<script>
+	var ttrt=document.getElementById("ttrmtp").getElementsByTagName("span");
+    
+	for(var ixc=0;ixc<ttrt.length;ixc++){
+		ttrt[ixc].onclick=function rtt(){
+			ttrrtp();
+			this.className="laop-s";
+		
+		
+			
+		}
+
+	}
+	
+	
+	
+	function  ttrrtp(){
+		for(var i=0;i<ttrt.length;i++){
+		ttrt[i].className=" ";
+		}
+		
+	}
+	
+	
+	</script>
+	
+		
+			
+				
+						
+<script>
+	var rt=document.getElementById("rmtp").getElementsByTagName("span");
+    
+	for(var ixc=0;ixc<rt.length;ixc++){
+		rt[ixc].onclick=function rtt(){
+			rrtp();
+			this.className="laop-s";
+		
+		
+			
+		}
+
+	}
+	
+	
+	
+	function  rrtp(){
+		for(var i=0;i<rt.length;i++){
+		rt[i].className=" ";
+		}
+		
+	}
+	
+	
+	</script>
+
+<!--中间的-->
+<script>
+	var idkks=document.getElementById("idkaiguan").getElementsByTagName("li");
+	for(var i=0;i<idkks.length;i++){
+		idkks[i].onclick=function idkb(){
+			ddzhongguo();
+			this.className="kaiguan";
+			
+		}
+		
+	}
+	
+	function ddzhongguo(){
+	
+		for(var i=0;i<9;i++){
+			idkks[i].className=" ";
+			
+			
+		}
+	}
+	
+	
+	
+	</script>
+	
+	
+	
+	
+	
+	<script>
+	var riidkks=document.getElementById("riidkaiguan").getElementsByTagName("li");
+	for(var i=0;i<riidkks.length;i++){
+		riidkks[i].onclick=function riidkb(){
+			rrddzhongguo();
+			this.className="kaiguan";
+			
+		}
+		
+	}
+	
+	function rrddzhongguo(){
+	
+		for(var i=0;i<2;i++){
+			riidkks[i].className=" ";
+			
+			
+		}
+	}
+	
+	
+	
+	</script>
+	<!-- 第三块 -->
+	<script>
+	var idkk=document.getElementById("iidkaiguan").getElementsByTagName("li");
+	for(var i=0;i<idkk.length;i++){
+		idkk[i].onclick=function idkb(){
+			dzhongguo();
+			this.className="kaiguan";
+			
+		}
+		
+	}
+	
+	function dzhongguo(){
+		
+		for(var i=0;i<idkk.length;i++){
+			idkk[i].className=" ";
+			
+			
+		}
+	}
+	
+	
+	
+	</script>
+	<!--第三块-->
+	<script>
+	var fifdkk=document.getElementById("fiidkaiguan").getElementsByTagName("li");
+	for(var i=0;i<fifdkk.length;i++){
+		fifdkk[i].onclick=function idkb(){
+			fdzhongguo();
+			this.className="kaiguan";
+			
+		}
+		
+	}
+	
+	function fdzhongguo(){
+		
+		for(var i=0;i<fifdkk.length;i++){
+			fifdkk[i].className=" ";
+			
+			
+		}
+	}
+	
+	
+	
+	</script>
+	
+	
+<!-- 第一个盒子 -->
+<script>
+var qq=document.getElementById("diyi").getElementsByTagName("a");
+	for(var lnn=0;lnn<5;lnn++ ){
+	qq[lnn].onclick=function dyq(){
+		lnnp();
+		this.className="db";
+		
+	
+	}}
+	function lnnp(){
+	for(var lnn=0;lnn<5;lnn++ ){
+	qq[lnn].className=" ";
+		
+	
+	}}
+	
+	
+	
+</script>
+
+
+
+<!-- 大盒子 -->
+<script>
+	window.onload=tt();
+	function tt(){
+	var o= document.getElementById("lbb").getElementsByTagName("div");
+		o[0].style.display="block";
+	}
+	
+	
+	
+	</script>
+	<!-- 侧边 -->
+	<script>
+		window.onload=nimab();
+		function nimab(){
+			var jd=document.getElementById("wwlb").getElementsByTagName("li");
+			jd[0].firstChild.style.border="0";
+			
+			
+		}
+	var jd=document.getElementById("wwlb").getElementsByTagName("li");
+		
+		for(var i=0;i<jd.length;i++){
+			
+		jd[i].onclick=function thiss(){
+			jdjd();
+			this.className="js";
+			this.firstChild.style.border="0px";
+									   
+		}}
+		function jdjd(){
+		for(var i=0;i<jd.length;i++){
+			jd[i].className=" ";
+			jd[i].firstChild.style.borderBottom="1px dashed #FFFFFF";
+			
+			
+		}}
+		
+	</script>
+	<!--轮播图-->
+<script>
+	var src=document.getElementById("ig");
+	var uu=document.getElementById("uu").getElementsByTagName("li");
+	var index=1;
+	window.onload=dsq();
+	function dsq(){
+		ddb=window.setInterval("qd()",2000);
+		uu[0].style.background="white";
+		
+	}
+	function qd(){
+		if(index<9){index++}else{index=1};
+		src.src="image/"+index+".jpg";
+		
+		qc();
+		uu[index-1].style.background="white";
+		
+		
+	}
+	function fu(x,b){
+		src.src="image/"+x+".jpg";
+		qc();
+		b.style.background="white";
+		clearInterval(ddb);
+		index=x;
+		
+		
+	}
+	
+	
+	
+	function qc(){
+		for(i=0;i<uu.length;i++){
+			uu[i].style.background="transparent";
+		}
+	}
+	
+	function ks(){
+		ddb=window.setInterval("qd()",2000);
+	}
+	function fuf(){
+		clearInterval(ddb);
+	}
+</script>
+</body>
+</html>
